@@ -1,8 +1,7 @@
 const mobileNav = document.querySelector(".mobile-nav");
 const mobileMenu = document.querySelector(".mobile-stick-menu");
-const mobileAgilityAnim = document.querySelector(".mobileAgilityAnim");
-
-console.log(mobileAgilityAnim);
+const mobilePersonal = document.querySelector(".mobile-personal-finance");
+const mobileInsurance = document.querySelector(".mobile-insurance");
 
 let lastScrollTop = 0;
 
@@ -23,7 +22,12 @@ document.addEventListener("scroll", (e) => {
     shopFromHomeDiv.classList.add("mobileSlideUp");
   }
 
-  if (pageYOffset >= 1600) {
+  if (pageYOffset >= 1500) {
+    mobilePersonal.classList.add("mobileSlideUp2");
+  }
+
+  if (pageYOffset >= 1800) {
+    mobileInsurance.classList.add("mobileSlideUp3");
   }
   // console.log(pageYOffset);
 });

@@ -509,11 +509,6 @@
     height: 300px;
   }
 
-  .mobileAgilityAnim {
-    position: relative;
-    /* top: 100px; */
-  }
-
   .slide-text {
     margin-top: 30px;
     height: 50px;
@@ -807,14 +802,22 @@
   }
 
   .mobileSlideUp2 {
-    -webkit-animation: slideUp 1.2s ease;
-    -moz-animation: slideUp 1.2s ease;
-    -o-animation: slideUp 1.2s ease;
-    animation: slideUp 1.2s ease;
+    -webkit-animation: PersonalFinanceMobileSlideUp 1.2s ease;
+    -moz-animation: PersonalFinanceMobileSlideUp 1.2s ease;
+    -o-animation: PersonalFinanceMobileSlideUp 1.2s ease;
+    animation: PersonalFinanceMobileSlideUp 1.2s ease;
     /* top: 200px; */
   }
 
   .mobileSlideUp3 {
+    -webkit-animation: MobileInsurance 1.2s ease;
+    -moz-animation: MobileInsurance 1.2s ease;
+    -o-animation: MobileInsurance 1.2s ease;
+    animation: MobileInsurance 1.2s ease;
+    /* top: 200px; */
+  }
+
+  .mobileSlideUp4 {
     -webkit-animation: miniSlideUp 1.2s ease;
     -moz-animation: miniSlideUp 1.2s ease;
     -o-animation: miniSlideUp 1.2s ease;
@@ -843,6 +846,28 @@
     to {
       position: relative;
       top: 0px;
+    }
+  }
+
+  @keyframes PersonalFinanceMobileSlideUp {
+    from {
+      position: relative;
+      top: 0px;
+    }
+
+    to {
+      position: relative;
+      top: -70px;
+    }
+  }
+
+  @keyframes MobileInsurance {
+    from {
+      margin-top: 50px;
+    }
+
+    to {
+      margin-top: 20px;
     }
   }
 }
