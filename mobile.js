@@ -1,8 +1,8 @@
 const mobileNav = document.querySelector(".mobile-nav");
 const mobileMenu = document.querySelector(".mobile-stick-menu");
-const mobileAgility = document.querySelector(".mobie-agility");
+const mobileAgilityAnim = document.querySelector(".mobileAgilityAnim");
 
-console.log(mobileAgility);
+console.log(mobileAgilityAnim);
 
 let lastScrollTop = 0;
 
@@ -23,7 +23,7 @@ document.addEventListener("scroll", (e) => {
     shopFromHomeDiv.classList.add("mobileSlideUp");
   }
 
+  if (pageYOffset >= 1600) {
+  }
   // console.log(pageYOffset);
 });
-
-// CHANGE
