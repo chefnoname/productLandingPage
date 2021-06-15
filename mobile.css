@@ -1,0 +1,843 @@
+@media screen and (max-width: 320px) {
+  /* DISPLAY NONES */
+
+  .second-nav {
+    display: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  .third-nav {
+    display: none;
+  }
+
+  .nav-bar p {
+    display: none;
+  }
+
+  .genuine-corner-search {
+    display: none;
+  }
+
+  .right-side {
+    display: none;
+  }
+
+  .display-bulletPoint {
+    display: none;
+  }
+
+  .searchPage {
+    display: none;
+  }
+
+  .hidden-menu {
+    display: none;
+  }
+
+  .hidden-nav {
+    display: none;
+  }
+
+  .purchase-info i {
+    display: none;
+  }
+
+  .corner-search {
+    display: none;
+  }
+
+  .tileUnder {
+    display: none;
+  }
+
+  .doughnut {
+    display: none;
+  }
+
+  /* DISPLAY NONES */
+
+  nav {
+    height: 60px;
+    margin: 10px;
+    border: 0px;
+  }
+
+  nav i {
+    color: rgba(255, 255, 255, 0.329);
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  nav img {
+    height: 40px;
+    width: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+  }
+  .left-side {
+    width: 100%;
+  }
+
+  .topCar {
+    display: block;
+    flex: 1;
+  }
+
+  .topMenu {
+    display: block;
+    flex: 1;
+    position: relative;
+    left: 50px;
+  }
+
+  .product-description {
+    width: 273px;
+    height: 200px;
+    /* background: chocolate; */
+    left: 10px !important;
+    bottom: 30px !important;
+    letter-spacing: 0px;
+    line-height: 25px;
+    padding: 15px;
+  }
+
+  .product-description h3 {
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    text-align: left;
+  }
+
+  .mobile-nav {
+    border-top: 1px solid white;
+    background: rgb(48, 46, 46);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    display: flex;
+    /* position: fixed; */
+    width: 100%;
+    top: 70px;
+    z-index: 2000;
+    transition: all ease 0.2s;
+  }
+
+  .mobile-nav p {
+    margin-bottom: 10px;
+    font-family: "Oxygen", monospace;
+    margin-right: 15px;
+    font-weight: 550;
+  }
+
+  .fa-chevron-down {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  /* BUTTON STYLE */
+
+  .purchase-info,
+  .buy-button,
+  .find-out-more,
+  .costButton {
+    background-color: rgba(14, 165, 235, 0.856);
+    width: 270px;
+    height: 35px;
+    position: absolute;
+  }
+
+  .purchase-info {
+    bottom: 100px;
+    left: 20px;
+  }
+
+  .costButton {
+    left: 5px;
+  }
+
+  /* BUTTON TEXT STYLE */
+
+  .purchase-info p,
+  .buy-button p,
+  .find-out-more p,
+  .costButton p {
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+  }
+
+  .purchase-info p {
+    top: -8px;
+  }
+
+  .costButton p {
+    width: 150px;
+  }
+
+  .mobile-stick-menu {
+    display: flex;
+    background: rgb(48, 46, 46);
+    position: sticky;
+    z-index: 2000;
+    top: 470px;
+    width: 320px;
+    justify-content: space-between;
+  }
+
+  .mobile-list1,
+  .mobile-list2,
+  .mobile-list3,
+  .mobile-list4,
+  .mobile-list5 {
+    border-right: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 60px;
+    width: 20%;
+  }
+
+  .mobile-list5 {
+    border: none;
+  }
+
+  .mobile-list1 i,
+  .mobile-list2 i,
+  .mobile-list3 i,
+  .mobile-list4 i,
+  .mobile-list5 i {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  .mobile-list1 p,
+  .mobile-list2 p,
+  .mobile-list3 p,
+  .mobile-list4 p,
+  .mobile-list5 p {
+    font-family: "Oxygen", monospace;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .chat {
+    color: white;
+    font-size: 70px;
+    position: fixed;
+    z-index: 10;
+    left: 230px;
+    top: 350px;
+    transition: all 0.1s ease-in-out;
+  }
+
+  .pricing-info-container {
+    top: -370px;
+  }
+
+  .pricing-info-container h1 {
+    font-size: 20px;
+  }
+
+  .pricing-images {
+    flex-direction: column;
+  }
+
+  .pricing-left {
+    border: none;
+    margin-bottom: 20px;
+    /* flex: 1; */
+  }
+
+  .pricing-left .fa-pound-sign,
+  .pricing-right .fa-scroll {
+    font-size: 60px;
+    margin-bottom: 25px;
+    position: relative;
+    left: 90%;
+  }
+
+  .pricing-right .fa-scroll {
+    left: 75%;
+  }
+
+  .caption,
+  .captionRight {
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-family: "Oxygen", monospace;
+    position: relative;
+    left: 55%;
+    width: 200px;
+  }
+
+  .button,
+  .buttonRight {
+    width: 270px;
+    height: 35px;
+    position: absolute;
+    left: 20px;
+  }
+
+  .buttonRight {
+    left: 0px;
+  }
+
+  .button i,
+  .buttonRight i {
+    display: none;
+  }
+
+  .button p,
+  .buttonRight p {
+    font-weight: 700;
+    font-family: "Oxygen", monospace;
+    font-size: 16px;
+  }
+
+  .pricing-right {
+    position: relative;
+    top: 80px;
+  }
+
+  .shop-from-home {
+    top: -250px;
+    flex-direction: column;
+  }
+
+  .left-content h3 {
+    font-family: "Newsreader", serif;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+  }
+
+  .mobile-pic {
+    display: block;
+    height: 170px;
+    width: 270px;
+    position: relative;
+    right: 30px;
+    margin-bottom: 35px;
+  }
+
+  .right-content img {
+    display: none;
+  }
+
+  .para-content {
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: "Oxygen", monospace;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 40px;
+    font-weight: 900;
+    font-family: "Oxygen", monospace;
+    font-size: 16px;
+  }
+
+  .buy-button i,
+  .find-out-more i {
+    display: none;
+  }
+
+  .buy-button {
+    right: 30px;
+  }
+
+  .find-out {
+    position: relative;
+    bottom: 0px;
+    /* background-color: darkcyan; */
+  }
+
+  .find-out-more {
+    right: 40px;
+    background: rgba(255, 255, 255, 0.329);
+    top: 50px;
+  }
+
+  .buy-button p {
+    left: 60px;
+  }
+
+  .find-out-more p {
+    left: 80px;
+  }
+
+  .products-services p {
+    font-family: "Oxygen", monospace;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 8px;
+  }
+
+  .sub-title h2 {
+    top: -90px;
+    left: 10px;
+    font-size: 18px;
+  }
+
+  .underline {
+    left: 10px;
+    top: -90px;
+    margin-bottom: 15px;
+  }
+
+  .financing-insuring h3 {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    left: 10px;
+    margin-bottom: 60px;
+    top: -70px;
+    width: 85%;
+  }
+
+  .productButtons,
+  .personalFinancePics,
+  .personalContactHire,
+  .personalOperatingAnim {
+    display: none;
+  }
+
+  .mobile-personal-finance {
+    background: rgba(255, 255, 255, 0.329);
+    position: relative;
+    top: -70px;
+    left: 5px;
+    height: 340px;
+    width: 270px;
+    display: block;
+  }
+
+  .mobile-personal-finance img {
+    position: relative;
+    right: 35px;
+    top: 20px;
+    width: 270px;
+    height: 180px;
+  }
+
+  .mobile-personal-finance p {
+    text-align: left;
+    position: relative;
+    left: 15px;
+    top: 5px;
+    font-family: "Oxygen";
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .mobile-footer {
+    font-family: "Newsreader", serif !important;
+    font-size: 18px !important;
+    top: 40px !important;
+  }
+
+  .mobile-small-box {
+    height: 45px;
+    width: 45px;
+    background-image: linear-gradient(-45deg, black 50%, white 50%);
+    position: relative;
+    left: 225px;
+    top: -41px;
+  }
+
+  .serviceBox {
+    top: 3px;
+  }
+
+  .mobile-small-box .fa-plus {
+    color: rgba(53, 51, 51, 0.932);
+    position: relative;
+    left: 5px;
+    top: 5px;
+  }
+
+  .mobile-insurance,
+  .mobile-service {
+    margin-top: 20px;
+  }
+
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    /* margin-top: 30px; */
+    padding: 1rem 0;
+    list-style-type: none;
+  }
+
+  .slick-dots li {
+    margin: 0 0.2rem;
+  }
+
+  .slick-dots button {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    padding: 0;
+
+    border: none;
+    border-radius: 100%;
+    background-color: rgba(53, 51, 51, 0.932);
+
+    text-indent: -9999px;
+  }
+
+  .slick-dots li.slick-active button {
+    background-color: rgba(14, 165, 235, 0.856);
+  }
+
+  .mobile-agility {
+    height: 300px;
+  }
+
+  .slide-text {
+    margin-top: 30px;
+    height: 50px;
+  }
+
+  .mobile-service {
+    margin-bottom: 70px;
+  }
+
+  .financing-insuring {
+    margin-bottom: 10px;
+  }
+
+  .genuine-info-container {
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+
+  .genuine-info-container p {
+    width: 270px;
+    text-align: left;
+    left: 10px;
+    top: -230px;
+    font-size: 16px;
+  }
+
+  .genuine-info-container img {
+    height: 170px;
+    width: 270px;
+    top: -250px;
+    right: 31px;
+  }
+
+  .genuineButton {
+    top: 280px;
+    left: 10px;
+  }
+
+  .genuineButton p {
+    position: relative;
+    top: 1px;
+    left: 40px;
+  }
+
+  .cost-comparison {
+    position: relative;
+    top: 150px;
+  }
+
+  .cost-title h3 {
+    margin-top: 70px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+  }
+
+  .cost-compare img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right: 30px;
+    bottom: 120px;
+  }
+
+  .cost-compare {
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    position: relative;
+    top: 10px;
+    right: 20px;
+  }
+
+  .footnote {
+    left: 10px;
+    margin-top: 60px;
+  }
+  .footnote p {
+    text-align: left;
+  }
+
+  .tiles {
+    position: relative;
+    left: 10px;
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tile {
+    display: flex;
+    width: 250px;
+    height: 60px;
+    padding: 15px;
+    background: linear-gradient(rgba(255, 255, 255, 0.329), #23292d);
+    flex-direction: row;
+    border-bottom: 3px solid #000000;
+  }
+
+  .tile p {
+    position: relative;
+    bottom: 30px;
+    left: 15px;
+  }
+
+  .icon {
+    font-size: 30px !important;
+  }
+
+  .e-brochure {
+    right: 0px;
+  }
+
+  .plug-ins {
+    right: 0px;
+  }
+
+  .fleet {
+    right: 0px;
+  }
+
+  .mobileRight1 {
+    display: none;
+  }
+
+  .mobileRight102,
+  .mobileRight2,
+  .mobileRight3,
+  .mobileRight4 {
+    position: relative;
+    visibility: visible;
+    left: 70px !important;
+    top: 3px;
+    font-size: 20px !important;
+  }
+
+  .mobileRight2 {
+    left: 50px !important;
+  }
+
+  .mobileRight3 {
+    left: 42px !important;
+  }
+
+  .mobileRight4 {
+    left: 91px !important;
+  }
+
+  .upButton {
+    margin-top: 50px;
+    position: relative;
+    right: 20px;
+  }
+
+  .sign-up {
+    left: 0px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+  }
+
+  .left-hand h3 {
+    color: white;
+    font-size: 16px !important;
+    font-family: "Oxygen", monospace;
+    margin-bottom: 20px;
+  }
+
+  .left-hand p {
+    color: rgba(255, 255, 255, 0.329);
+    font-family: "Oxygen", monospace;
+    font-size: 12px !important;
+    text-align: left;
+  }
+
+  .subscribeButton {
+    top: 180px;
+    left: 15px;
+    width: 250px;
+    height: 50px;
+  }
+
+  .subscribeButton p {
+    padding: 15px;
+    left: 75px;
+    top: 0px;
+    font-size: 16px;
+  }
+
+  .last-part {
+    left: 0px;
+    top: 500px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .mercedes li,
+  .benz-parts li,
+  .about-us li,
+  .further-info li,
+  .untitled li {
+    display: none;
+  }
+
+  .mercedes h1,
+  .benz-parts h1,
+  .about-us h1,
+  .further-info h1 {
+    font-size: 14px !important;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.329);
+    width: 300px;
+  }
+
+  .mercedes,
+  .benz-parts,
+  .about-us,
+  .further-info,
+  .untitled {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .untitled {
+    left: 10px;
+    top: 0px;
+  }
+
+  .legalCopyrights {
+    height: 300px;
+    width: 100%;
+    left: 0px;
+    flex-direction: column-reverse;
+  }
+
+  .legalCopyrights p {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .finalCaptions {
+    /* background: blueviolet; */
+    position: relative;
+    top: -70px;
+    line-height: 5px;
+  }
+
+  .legalSymbols {
+    bottom: 70px;
+  }
+
+  .legalCopyrights i {
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+    left: 45px;
+  }
+
+  .closeGap,
+  .privacyPolicy,
+  .legalNotice,
+  .cookies {
+    position: relative;
+    right: 0px;
+  }
+
+  .landscapeCaption {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  /* Mobile Animations */
+
+  .mobileSlideUp {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+    -webkit-animation: MobileSlideUp 1.2s ease;
+    -moz-animation: MobileSlideUp 1.2s ease;
+    -o-animation: MobileSlideUp 1.2s ease;
+    animation: MobileSlideUp 1.2s ease;
+  }
+
+  .mobileSlideUp2 {
+    -webkit-animation: slideUp 1.2s ease;
+    -moz-animation: slideUp 1.2s ease;
+    -o-animation: slideUp 1.2s ease;
+    animation: slideUp 1.2s ease;
+    /* top: 200px; */
+  }
+
+  .mobileSlideUp3 {
+    -webkit-animation: miniSlideUp 1.2s ease;
+    -moz-animation: miniSlideUp 1.2s ease;
+    -o-animation: miniSlideUp 1.2s ease;
+    animation: miniSlideUp 1.2s ease;
+    /* top: 200px; */
+  }
+
+  @keyframes MobileSlideUp {
+    from {
+      position: relative;
+      top: -150px;
+    }
+
+    to {
+      position: relative;
+      top: -250px;
+    }
+  }
+
+  @keyframes miniSlideUp {
+    from {
+      position: relative;
+      top: 50px;
+    }
+
+    to {
+      position: relative;
+      top: 0px;
+    }
+  }
+}

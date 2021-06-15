@@ -1,0 +1,19 @@
+p {
+  font-size: 16px;
+  font-family: "Newsreader", serif;
+}
+
+.box1 {
+  background-color: teal;
+  height: 100px;
+  width: 300px;
+  position: absolute;
+  right: -250px;
+  transition: all 0.3s ease-in-out;
+}
+
+.box1:hover {
+  background-color: tomato;
+  cursor: pointer;
+  right: -50px;
+}
