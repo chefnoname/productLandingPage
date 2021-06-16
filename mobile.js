@@ -2,7 +2,8 @@ const mobileNav = document.querySelector(".mobile-nav");
 const mobileMenu = document.querySelector(".mobile-stick-menu");
 const mobilePersonal = document.querySelector(".mobile-personal-finance");
 const mobileInsurance = document.querySelector(".mobile-insurance");
-
+const mobileService = document.querySelector(".mobile-service");
+const genuinePic = document.querySelector(".hovering");
 let lastScrollTop = 0;
 
 document.addEventListener("scroll", (e) => {
@@ -29,5 +30,19 @@ document.addEventListener("scroll", (e) => {
   if (pageYOffset >= 1800) {
     mobileInsurance.classList.add("mobileSlideUp3");
   }
+
+  if (pageYOffset >= 2200) {
+    mobileService.classList.add("mobileSlideUp3");
+  }
+
+  if (pageYOffset >= 2700) {
+    genuinePic.classList.add("mobileSlideUp5");
+  }
+
+  if (pageYOffset >= 3400) {
+    costComparison.classList.add("mobileSlideUp6");
+  }
   // console.log(pageYOffset);
 });
+
+console.log(mobileService);

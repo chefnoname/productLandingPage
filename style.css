@@ -604,7 +604,7 @@ p {
   z-index: 1;
   position: absolute;
   right: 45px;
-  bottom: -897px;
+  bottom: -913px;
 }
 
 .corner-search i {
@@ -831,13 +831,11 @@ p {
   height: 40px;
   width: 40px;
   background: rgba(68, 64, 64, 0.795);
-  /* color: rgba(255, 255, 255, 0.329); */
   color: white;
   font-size: 30px;
   z-index: 1;
   position: absolute;
-  right: 40px;
-  bottom: -2187px;
+  bottom: -2205px;
   right: 45px;
 }
 
@@ -963,7 +961,7 @@ p {
 }
 
 .tile p {
-  margin-top: 25px;
+  margin-top: 15px;
   font-size: 18px;
   font-weight: bold;
 }

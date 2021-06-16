@@ -379,6 +379,9 @@
   .find-out-more p {
     left: 80px;
   }
+  .products-services {
+    margin-top: 0px;
+  }
 
   .products-services p {
     font-family: "Oxygen", monospace;
@@ -825,6 +828,22 @@
     /* top: 200px; */
   }
 
+  .mobileSlideUp5 {
+    -webkit-animation: GenuineAnim 1.2s ease;
+    -moz-animation: GenuineAnim 1.2s ease;
+    -o-animation: GenuineAnim 1.2s ease;
+    animation: GenuineAnim 1.2s ease;
+    /* top: 200px; */
+  }
+
+  .mobileSlideUp6 {
+    -webkit-animation: CostCompareAnim 1.2s ease;
+    -moz-animation: CostCompareAnim 1.2s ease;
+    -o-animation: CostCompareAnim 1.2s ease;
+    animation: CostCompareAnim 1.2s ease;
+    /* top: 200px; */
+  }
+
   @keyframes MobileSlideUp {
     from {
       position: relative;
@@ -863,11 +882,31 @@
 
   @keyframes MobileInsurance {
     from {
-      margin-top: 50px;
+      margin-top: 70px;
     }
 
     to {
       margin-top: 20px;
+    }
+  }
+
+  @keyframes GenuineAnim {
+    from {
+      margin-top: 70px;
+    }
+
+    to {
+      margin-top: 0px;
+    }
+  }
+
+  @keyframes CostCompareAnim {
+    from {
+      top: 250px;
+    }
+
+    to {
+      top: 150px;
     }
   }
 }
