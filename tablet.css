@@ -1,0 +1,107 @@
+@media only screen and (max-width: 768px) and (min-width: 427px) {
+  /* DISPLAY NONES */
+
+  .second-nav {
+    display: none;
+  }
+
+  .nav-bar p {
+    display: none;
+  }
+  /* DISPLAY NONES */
+  nav {
+    height: 60px;
+    margin: 10px;
+    border: 0px;
+    width: 768px;
+  }
+
+  nav img {
+    height: 40px;
+    width: 40px;
+    margin-right: 250px;
+    /* margin-bottom: 20px; */
+  }
+
+  nav i {
+    font-size: 15px;
+  }
+
+  .left-side {
+    width: 100%;
+  }
+
+  .topCar {
+    display: block;
+    flex: 1;
+    margin-top: 10px;
+  }
+
+  .topMenu {
+    display: block;
+    flex: 1;
+    position: relative;
+    right: 450px;
+    margin-top: 10px;
+  }
+
+  .topSearch {
+    position: relative;
+    right: 220px;
+    bottom: 20px;
+    color: white;
+  }
+
+  .third-nav {
+    height: 25px;
+    width: 530px;
+    top: 100px;
+    left: 10px;
+  }
+
+  .third-nav p {
+    font-size: 10px;
+  }
+
+  .third-nav .fa-angle-down {
+    font-size: 15px;
+    position: relative;
+    left: -25px;
+    top: 0px;
+  }
+
+  #item10 {
+    right: 30px;
+  }
+
+  #item11 {
+    right: 60px;
+  }
+
+  #item12 {
+    right: 90px;
+  }
+
+  #item13,
+  #item14,
+  #item15 {
+    display: none;
+  }
+
+  #item16 {
+    display: block;
+  }
+  .car-container {
+    height: 341px;
+  }
+
+  .hidden-menu {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    position: fixed;
+    right: 600px;
+    top: 200px;
+    z-index: 10;
+  }
+}
