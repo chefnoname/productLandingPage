@@ -214,242 +214,242 @@ mobileWidthSize = window.innerWidth <= 426 ? 0 : 1;
 
 console.log("mobileWidthSize is " + mobileWidthSize);
 
-document.addEventListener("scroll", (e) => {
-  if (pageYOffset >= 150 && mobileWidthSize === 1) {
-    pricingInfoContainer.classList.add("slide-up2");
-    pricingInfoContainer.classList.remove("pricing-info-container");
-  }
+// document.addEventListener("scroll", (e) => {
+//   if (pageYOffset >= 150 && mobileWidthSize === 1) {
+//     pricingInfoContainer.classList.add("slide-up2");
+//     pricingInfoContainer.classList.remove("pricing-info-container");
+//   }
 
-  if (pageYOffset >= 200 && mobileWidthSize === 1) {
-    thirdNav.classList.add("sticky");
-  } else {
-    thirdNav.classList.remove("sticky");
-  }
+//   if (pageYOffset >= 200 && mobileWidthSize === 1) {
+//     thirdNav.classList.add("sticky");
+//   } else {
+//     thirdNav.classList.remove("sticky");
+//   }
 
-  if (pageYOffset < 570 && mobileWidthSize === 1) {
-    donut1.style.visibility = "hidden";
+//   if (pageYOffset < 570 && mobileWidthSize === 1) {
+//     donut1.style.visibility = "hidden";
 
-    bulletOneAnim.style.color = "white";
-    bulletOnePara.style.color = "white";
-    bulletOnePara.style.fontWeight = "normal";
-  }
+//     bulletOneAnim.style.color = "white";
+//     bulletOnePara.style.color = "white";
+//     bulletOnePara.style.fontWeight = "normal";
+//   }
 
-  if (pageYOffset >= 570 && mobileWidthSize === 1) {
-    shopFromHomeDiv.classList.add("slide-up");
-    shopFromHomeDiv.classList.remove("shop-from-home");
+//   if (pageYOffset >= 570 && mobileWidthSize === 1) {
+//     shopFromHomeDiv.classList.add("slide-up");
+//     shopFromHomeDiv.classList.remove("shop-from-home");
 
-    donut1.style.visibility = "visible";
-    donut1.style.zIndex = "40";
+//     donut1.style.visibility = "visible";
+//     donut1.style.zIndex = "40";
 
-    donut2.style.visibility = "hidden";
+//     donut2.style.visibility = "hidden";
 
-    bulletOneAnim.style.color = "rgba(14, 165, 235, 0.808)";
-    bulletOnePara.style.color = "rgba(14, 165, 235, 0.808)";
-    bulletOnePara.style.fontWeight = "900";
+//     bulletOneAnim.style.color = "rgba(14, 165, 235, 0.808)";
+//     bulletOnePara.style.color = "rgba(14, 165, 235, 0.808)";
+//     bulletOnePara.style.fontWeight = "900";
 
-    bulletTwoAnim.style.color = "white";
-    bulletTwoPara.style.color = "white";
-    bulletTwoPara.style.fontWeight = "normal";
-  }
+//     bulletTwoAnim.style.color = "white";
+//     bulletTwoPara.style.color = "white";
+//     bulletTwoPara.style.fontWeight = "normal";
+//   }
 
-  if (pageYOffset >= 1250 && mobileWidthSize === 1) {
-    if (counter === 0) {
-      agility.classList.add("slide-up2");
-      agilityDiv.classList.remove("agilityAnim");
+//   if (pageYOffset >= 1250 && mobileWidthSize === 1) {
+//     if (counter === 0) {
+//       agility.classList.add("slide-up2");
+//       agilityDiv.classList.remove("agilityAnim");
 
-      setTimeout(() => {
-        hirePurchase.classList.add("slide-up2");
-        hirePurchaseDiv.classList.remove("hirePurchaseAnim");
-      }, 200);
+//       setTimeout(() => {
+//         hirePurchase.classList.add("slide-up2");
+//         hirePurchaseDiv.classList.remove("hirePurchaseAnim");
+//       }, 200);
 
-      setTimeout(() => {
-        personalOperating.classList.add("slide-up2");
-        personalOperatingDiv.classList.remove("personalOperatingAnim");
-      }, 300);
-    }
+//       setTimeout(() => {
+//         personalOperating.classList.add("slide-up2");
+//         personalOperatingDiv.classList.remove("personalOperatingAnim");
+//       }, 300);
+//     }
 
-    donut2.style.visibility = "visible";
-    donut2.style.zIndex = "40";
+//     donut2.style.visibility = "visible";
+//     donut2.style.zIndex = "40";
 
-    donut1.style.visibility = "hidden";
-    donut3.style.visibility = "hidden";
+//     donut1.style.visibility = "hidden";
+//     donut3.style.visibility = "hidden";
 
-    bulletOneAnim.style.color = "white";
-    bulletOnePara.style.color = "white";
-    bulletOnePara.style.fontWeight = "normal";
+//     bulletOneAnim.style.color = "white";
+//     bulletOnePara.style.color = "white";
+//     bulletOnePara.style.fontWeight = "normal";
 
-    bulletTwoAnim.style.color = "rgba(14, 165, 235, 0.808)";
-    bulletTwoPara.style.color = "rgba(14, 165, 235, 0.808)";
-    bulletTwoPara.style.fontWeight = "900";
+//     bulletTwoAnim.style.color = "rgba(14, 165, 235, 0.808)";
+//     bulletTwoPara.style.color = "rgba(14, 165, 235, 0.808)";
+//     bulletTwoPara.style.fontWeight = "900";
 
-    bulletThreeAnim.style.color = "white";
-    bulletThreePara.style.color = "white";
-    bulletThreePara.style.fontWeight = "normal";
-  }
+//     bulletThreeAnim.style.color = "white";
+//     bulletThreePara.style.color = "white";
+//     bulletThreePara.style.fontWeight = "normal";
+//   }
 
-  if (pageYOffset >= 1950 && mobileWidthSize === 1) {
-    genuineDiv.classList.add("slide-up2");
-    genuineDiv.classList.remove("genuine-accessories");
+//   if (pageYOffset >= 1950 && mobileWidthSize === 1) {
+//     genuineDiv.classList.add("slide-up2");
+//     genuineDiv.classList.remove("genuine-accessories");
 
-    donut3.style.visibility = "visible";
-    donut3.style.zIndex = "40";
+//     donut3.style.visibility = "visible";
+//     donut3.style.zIndex = "40";
 
-    donut2.style.visibility = "hidden";
-    donut4.style.visibility = "hidden";
+//     donut2.style.visibility = "hidden";
+//     donut4.style.visibility = "hidden";
 
-    bulletThreeAnim.style.color = "rgba(14, 165, 235, 0.808)";
-    bulletThreePara.style.color = "rgba(14, 165, 235, 0.808)";
-    bulletThreePara.style.fontWeight = "900";
+//     bulletThreeAnim.style.color = "rgba(14, 165, 235, 0.808)";
+//     bulletThreePara.style.color = "rgba(14, 165, 235, 0.808)";
+//     bulletThreePara.style.fontWeight = "900";
 
-    bulletTwoAnim.style.color = "white";
-    bulletTwoPara.style.color = "white";
-    bulletTwoPara.style.fontWeight = "normal";
+//     bulletTwoAnim.style.color = "white";
+//     bulletTwoPara.style.color = "white";
+//     bulletTwoPara.style.fontWeight = "normal";
 
-    bulletFourAnim.style.color = "white";
-    bulletFourPara.style.color = "white";
-    bulletFourPara.style.fontWeight = "normal";
-  }
+//     bulletFourAnim.style.color = "white";
+//     bulletFourPara.style.color = "white";
+//     bulletFourPara.style.fontWeight = "normal";
+//   }
 
-  if (pageYOffset >= 2500 && mobileWidthSize === 1) {
-    costComparison.classList.add("slide-up2");
-    costComparison.classList.remove("cost-comparison");
+//   if (pageYOffset >= 2500 && mobileWidthSize === 1) {
+//     costComparison.classList.add("slide-up2");
+//     costComparison.classList.remove("cost-comparison");
 
-    donut4.style.visibility = "visible";
-    donut4.style.zIndex = "40";
+//     donut4.style.visibility = "visible";
+//     donut4.style.zIndex = "40";
 
-    donut3.style.visibility = "hidden";
-    donut5.style.visibility = "hidden";
+//     donut3.style.visibility = "hidden";
+//     donut5.style.visibility = "hidden";
 
-    bulletFourAnim.style.color = "rgba(14, 165, 235, 0.808)";
-    bulletFourPara.style.color = "rgba(14, 165, 235, 0.808)";
-    bulletFourPara.style.fontWeight = "900";
+//     bulletFourAnim.style.color = "rgba(14, 165, 235, 0.808)";
+//     bulletFourPara.style.color = "rgba(14, 165, 235, 0.808)";
+//     bulletFourPara.style.fontWeight = "900";
 
-    bulletThreeAnim.style.color = "white";
-    bulletThreePara.style.color = "white";
-    bulletThreePara.style.fontWeight = "normal";
+//     bulletThreeAnim.style.color = "white";
+//     bulletThreePara.style.color = "white";
+//     bulletThreePara.style.fontWeight = "normal";
 
-    bulletFiveAnim.style.color = "white";
-    bulletFivePara.style.color = "white";
-    bulletFivePara.style.fontWeight = "normal";
-  }
+//     bulletFiveAnim.style.color = "white";
+//     bulletFivePara.style.color = "white";
+//     bulletFivePara.style.fontWeight = "normal";
+//   }
 
-  if (pageYOffset >= 2700 && mobileWidthSize === 1) {
-    footnote.classList.add("slide-up2");
-    footnoteAnim.classList.remove("footnoteAnim");
-  }
+//   if (pageYOffset >= 2700 && mobileWidthSize === 1) {
+//     footnote.classList.add("slide-up2");
+//     footnoteAnim.classList.remove("footnoteAnim");
+//   }
 
-  if (pageYOffset >= 3000 && mobileWidthSize === 1) {
-    donut5.style.visibility = "visible";
-    donut5.style.zIndex = "40";
+//   if (pageYOffset >= 3000 && mobileWidthSize === 1) {
+//     donut5.style.visibility = "visible";
+//     donut5.style.zIndex = "40";
 
-    donut4.style.visibility = "hidden";
+//     donut4.style.visibility = "hidden";
 
-    bulletFiveAnim.style.color = "rgba(14, 165, 235, 0.808)";
-    bulletFivePara.style.color = "rgba(14, 165, 235, 0.808)";
-    bulletFivePara.style.fontWeight = "900";
+//     bulletFiveAnim.style.color = "rgba(14, 165, 235, 0.808)";
+//     bulletFivePara.style.color = "rgba(14, 165, 235, 0.808)";
+//     bulletFivePara.style.fontWeight = "900";
 
-    bulletFourAnim.style.color = "white";
-    bulletFourPara.style.color = "white";
-    bulletFourPara.style.fontWeight = "normal";
-  }
+//     bulletFourAnim.style.color = "white";
+//     bulletFourPara.style.color = "white";
+//     bulletFourPara.style.fontWeight = "normal";
+//   }
 
-  if (pageYOffset >= 3500 && mobileWidthSize === 1) {
-    donut5.style.visibility = "hidden";
+//   if (pageYOffset >= 3500 && mobileWidthSize === 1) {
+//     donut5.style.visibility = "hidden";
 
-    bulletFiveAnim.style.color = "white";
-    bulletFivePara.style.color = "white";
-    bulletFivePara.style.fontWeight = "normal";
-  }
-  // console.log(Math.ceil(pageYOffset));
-});
+//     bulletFiveAnim.style.color = "white";
+//     bulletFivePara.style.color = "white";
+//     bulletFivePara.style.fontWeight = "normal";
+//   }
+//   // console.log(Math.ceil(pageYOffset));
+// });
 
-chatBubble.addEventListener("click", (e) => {
-  chatBox.style.visibility = "visible";
-  chatBubble.style.visibility = "hidden";
-  mobileMenu.style.visibility = "hidden";
-});
+// chatBubble.addEventListener("click", (e) => {
+//   chatBox.style.visibility = "visible";
+//   chatBubble.style.visibility = "hidden";
+//   mobileMenu.style.visibility = "hidden";
+// });
 
-arrowDown.addEventListener("click", (e) => {
-  chatBox.style.visibility = "hidden";
-  chatBubble.style.visibility = "visible";
-  mobileMenu.style.visibility = "visible";
-});
+// arrowDown.addEventListener("click", (e) => {
+//   chatBox.style.visibility = "hidden";
+//   chatBubble.style.visibility = "visible";
+//   mobileMenu.style.visibility = "visible";
+// });
 
-rightSideSearch.addEventListener("click", (e) => {
-  searchPage.style.zIndex = "30";
-  exitButton.style.visibility = "visible";
-  thirdNav.style.visibility = "hidden";
-  chatBubble.style.visibility = "hidden";
-});
+// rightSideSearch.addEventListener("click", (e) => {
+//   searchPage.style.zIndex = "30";
+//   exitButton.style.visibility = "visible";
+//   thirdNav.style.visibility = "hidden";
+//   chatBubble.style.visibility = "hidden";
+// });
 
-exitButton.addEventListener("click", (e) => {
-  searchPage.style.zIndex = "-30";
-  exitButton.style.visibility = "hidden";
-  thirdNav.style.visibility = "visible";
-  chatBubble.style.visibility = "visible";
-});
+// exitButton.addEventListener("click", (e) => {
+//   searchPage.style.zIndex = "-30";
+//   exitButton.style.visibility = "hidden";
+//   thirdNav.style.visibility = "visible";
+//   chatBubble.style.visibility = "visible";
+// });
 
-bulletOnePara.addEventListener("mouseover", (e) => {
-  bulletOneAnim.style.color = "rgba(14, 165, 235, 0.808)";
-});
+// bulletOnePara.addEventListener("mouseover", (e) => {
+//   bulletOneAnim.style.color = "rgba(14, 165, 235, 0.808)";
+// });
 
-bulletOnePara.addEventListener("mouseout", (e) => {
-  if (donut1.style.visibility === "hidden") {
-    bulletOneAnim.style.color = "white";
-  }
-});
+// bulletOnePara.addEventListener("mouseout", (e) => {
+//   if (donut1.style.visibility === "hidden") {
+//     bulletOneAnim.style.color = "white";
+//   }
+// });
 
-bulletTwoPara.addEventListener("mouseover", (e) => {
-  bulletTwoAnim.style.color = "rgba(14, 165, 235, 0.808)";
-});
+// bulletTwoPara.addEventListener("mouseover", (e) => {
+//   bulletTwoAnim.style.color = "rgba(14, 165, 235, 0.808)";
+// });
 
-bulletTwoPara.addEventListener("mouseout", (e) => {
-  if (donut2.style.visibility === "hidden") {
-    bulletTwoAnim.style.color = "white";
-  }
-});
+// bulletTwoPara.addEventListener("mouseout", (e) => {
+//   if (donut2.style.visibility === "hidden") {
+//     bulletTwoAnim.style.color = "white";
+//   }
+// });
 
-bulletThreePara.addEventListener("mouseover", (e) => {
-  bulletThreeAnim.style.color = "rgba(14, 165, 235, 0.808)";
-});
+// bulletThreePara.addEventListener("mouseover", (e) => {
+//   bulletThreeAnim.style.color = "rgba(14, 165, 235, 0.808)";
+// });
 
-bulletThreePara.addEventListener("mouseout", (e) => {
-  if (donut3.style.visibility === "hidden") {
-    bulletThreeAnim.style.color = "white";
-  }
-});
+// bulletThreePara.addEventListener("mouseout", (e) => {
+//   if (donut3.style.visibility === "hidden") {
+//     bulletThreeAnim.style.color = "white";
+//   }
+// });
 
-bulletFourPara.addEventListener("mouseover", (e) => {
-  bulletFourAnim.style.color = "rgba(14, 165, 235, 0.808)";
-});
+// bulletFourPara.addEventListener("mouseover", (e) => {
+//   bulletFourAnim.style.color = "rgba(14, 165, 235, 0.808)";
+// });
 
-bulletFourPara.addEventListener("mouseout", (e) => {
-  if (donut4.style.visibility === "hidden") {
-    bulletFourAnim.style.color = "white";
-  }
-});
+// bulletFourPara.addEventListener("mouseout", (e) => {
+//   if (donut4.style.visibility === "hidden") {
+//     bulletFourAnim.style.color = "white";
+//   }
+// });
 
-bulletFivePara.addEventListener("mouseover", (e) => {
-  bulletFiveAnim.style.color = "rgba(14, 165, 235, 0.808)";
-});
+// bulletFivePara.addEventListener("mouseover", (e) => {
+//   bulletFiveAnim.style.color = "rgba(14, 165, 235, 0.808)";
+// });
 
-bulletFivePara.addEventListener("mouseout", (e) => {
-  if (donut5.style.visibility === "hidden") {
-    bulletFiveAnim.style.color = "white";
-  }
-});
+// bulletFivePara.addEventListener("mouseout", (e) => {
+//   if (donut5.style.visibility === "hidden") {
+//     bulletFiveAnim.style.color = "white";
+//   }
+// });
 
-bulletOnePara.addEventListener("click", (e) => {
-  pricingInfoContainer.scrollIntoView({ behavior: "smooth", block: "center" });
-});
+// bulletOnePara.addEventListener("click", (e) => {
+//   pricingInfoContainer.scrollIntoView({ behavior: "smooth", block: "center" });
+// });
 
-bulletTwoPara.addEventListener("click", (e) => {
-  productsContainer.scrollIntoView({ behavior: "smooth" });
-});
+// bulletTwoPara.addEventListener("click", (e) => {
+//   productsContainer.scrollIntoView({ behavior: "smooth" });
+// });
 
-bulletThreePara.addEventListener("click", (e) => {
-  genuineAccessoriesContainer.scrollIntoView({
-    behavior: "smooth",
-    block: "center",
-  });
-});
+// bulletThreePara.addEventListener("click", (e) => {
+//   genuineAccessoriesContainer.scrollIntoView({
+//     behavior: "smooth",
+//     block: "center",
+//   });
+// });
