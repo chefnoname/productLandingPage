@@ -385,22 +385,71 @@
   .personalFinancePics {
     display: flex;
     justify-content: space-between;
-    background-color: teal;
+    position: relative;
+    bottom: 25px;
   }
 
   .personalFinancePics img,
-  .personalContactHire img {
+  .personalContactHire img,
+  .personal-operating img {
     height: 130px;
-    width: 230px;
+    width: 240px;
     position: relative;
   }
 
-  .hire-purchase img {
-    right: 20px;
+  .agility,
+  .motor-insurance {
+    position: relative;
+    right: 30px;
+  }
+
+  .hire-purchase {
+    position: relative;
+    right: 15px;
     bottom: 200px;
   }
 
-  .personal-operating img {
-    right: 40px;
+  .personal-operating {
+    position: relative;
+    right: 270px;
+    bottom: 20px;
+  }
+
+  .personalContactHire {
+    position: relative;
+    right: 30px;
+    bottom: 19px;
+  }
+
+  .first-cover {
+    right: 30px;
+  }
+
+  .serviceTab {
+    right: 30px;
+  }
+
+  .plus1,
+  .plus2,
+  .plus3,
+  .plus4 {
+    width: 20px;
+    height: 20px;
+    bottom: 45px;
+    font-size: 15px;
+    padding-top: 2px;
+  }
+
+  .plus1,
+  .plus4 {
+    left: 255px;
+  }
+
+  .plus2 {
+    left: 235px;
+  }
+
+  .plus3 {
+    left: 215px;
   }
 }
