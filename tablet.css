@@ -452,4 +452,130 @@
   .plus3 {
     left: 215px;
   }
+
+  .genuine-accessories {
+    position: relative;
+    top: 0px;
+  }
+
+  .genuine-info-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .genuine-info-container p {
+    width: 80%;
+    font-size: 12px;
+    left: 10px;
+    margin-right: 10px;
+    bottom: 30px;
+    font-weight: 400;
+  }
+
+  .genuine-info-container img {
+    right: 5px;
+    height: 170px;
+    width: 300px;
+  }
+
+  .genuine-corner-search {
+    height: 25px;
+    width: 25px;
+    font-size: 15px;
+    top: 145px;
+    right: 5px;
+  }
+
+  .genuineButton {
+    left: 10px;
+    bottom: 10px;
+    width: 170px;
+  }
+
+  .genuineButton p {
+    padding-top: 2px;
+    margin-right: 0px;
+    left: 0px;
+    top: 6px;
+  }
+
+  .cost-comparison {
+    top: 0px;
+  }
+
+  .cost-compare h2 {
+    font-size: 12px;
+  }
+
+  .cost-compare {
+    width: 41%;
+    bottom: 25px;
+  }
+
+  .cost-compare img {
+    height: 70px;
+    width: 70px;
+    margin-left: 30px;
+  }
+
+  .costButton {
+    width: 110px;
+    left: 10px;
+  }
+
+  .costButton p {
+    top: 0px;
+  }
+
+  .footnote {
+    left: 10px;
+    width: 95%;
+  }
+
+  .footnoteAnim {
+    top: 0px;
+  }
+
+  .tileUnder {
+    margin-top: 00px;
+    left: 10px;
+    top: 50px;
+  }
+
+  .tiles {
+    left: 0px;
+    top: 100px;
+  }
+
+  .tile {
+    display: flex;
+    width: 125px;
+    height: 110px;
+    padding: 15px;
+  }
+
+  .tile i {
+    font-size: 30px;
+  }
+
+  .e-brochure {
+    right: 0px;
+  }
+
+  .plug-ins {
+    right: 5px;
+  }
+
+  .fleet {
+    right: 10px;
+  }
+
+  .tile p {
+    position: relative;
+    top: 0px;
+    right: 10px;
+    margin-top: 15px;
+    font-size: 10px;
+    text-align: left;
+  }
 }
