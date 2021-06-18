@@ -397,6 +397,13 @@
     position: relative;
   }
 
+  .agilityAnim,
+  .hirePurchaseAnim,
+  .personalOperatingAnim {
+    position: relative;
+    top: 00px;
+  }
+
   .agility,
   .motor-insurance {
     position: relative;
@@ -406,13 +413,12 @@
   .hire-purchase {
     position: relative;
     right: 15px;
-    bottom: 200px;
   }
 
   .personal-operating {
     position: relative;
     right: 270px;
-    bottom: 20px;
+    top: 180px;
   }
 
   .personalContactHire {
