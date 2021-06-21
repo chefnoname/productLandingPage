@@ -236,7 +236,7 @@
   }
 
   .chat-box {
-    height: 100%;
+    height: 530px;
     width: 100%;
     position: fixed;
     z-index: 2100;
@@ -816,6 +816,101 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
+  }
+
+  .mobileMenu {
+    position: absolute;
+    height: 560px;
+    width: 320px;
+    z-index: 2500;
+    background: black;
+    left: 320px;
+    display: none;
+  }
+
+  .slideLeft {
+    -webkit-animation: slideLeft 0.3s ease-in-out;
+    -moz-animation: slideLeft 0.3s ease-in-out;
+    -o-animation: slideLeft 0.3s ease-in-out;
+    animation: slideLeft 0.3s ease-in-out;
+  }
+
+  .slideRight {
+    -webkit-animation: slideRight 0.3s ease-in-out;
+    -moz-animation: slideRight 0.3s ease-in-out;
+    -o-animation: slideRight 0.3s ease-in-out;
+    animation: slideRight 0.3s ease-in-out;
+  }
+
+  @keyframes slideLeft {
+    from {
+      left: 320px;
+    }
+
+    to {
+      left: 0px;
+    }
+  }
+
+  @keyframes slideRight {
+    from {
+      left: 0px;
+    }
+
+    to {
+      left: 320px;
+    }
+  }
+
+  .mobileMenu p {
+    display: block;
+    color: black;
+    font-family: "Oxygen", monospace;
+  }
+
+  .topPart {
+    height: 230px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+  }
+
+  .topPart img {
+    height: 75px;
+    width: 75px;
+  }
+
+  .topPart i {
+    font-size: 25px;
+    position: relative;
+    top: 150px;
+  }
+
+  .mobileList {
+    background-color: white;
+    height: 499px;
+    padding: 20px;
+    line-height: 70px;
+  }
+
+  .mobileList i {
+    color: rgba(58, 56, 56, 0.466);
+    font-size: 18px;
+    position: relative;
+    top: 12px;
+  }
+
+  .mercedesMe,
+  .ourCars,
+  .electricHybrid,
+  .onlineShow,
+  .latestOffers,
+  .ownersArea,
+  .financeInsurance {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 2px solid rgba(58, 56, 56, 0.164); */
   }
 
   /* Mobile Animations */

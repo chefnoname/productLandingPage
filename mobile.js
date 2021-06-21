@@ -4,6 +4,9 @@ const mobilePersonal = document.querySelector(".mobile-personal-finance");
 const mobileInsurance = document.querySelector(".mobile-insurance");
 const mobileService = document.querySelector(".mobile-service");
 const genuinePic = document.querySelector(".hovering");
+const mobilePopUp = document.querySelector(".mobileMenu");
+const burgerMenu = document.querySelector(".topMenu");
+const exitCross = document.querySelector(".clickHere");
 let lastScrollTop = 0;
 
 document.addEventListener("scroll", (e) => {
@@ -45,4 +48,38 @@ document.addEventListener("scroll", (e) => {
   // console.log(pageYOffset);
 });
 
-console.log(mobileService);
+burgerMenu.addEventListener("click", (e) => {
+  mobilePopUp.classList.add("slideLeft");
+  mobilePopUp.style.display = "block";
+  mobilePopUp.style.overflowY = "scroll";
+  document.body.style.overflowY = "hidden";
+  // mobilePopUp.classList.remove("slideRight");
+  mobilePopUp.style.left = "0px";
+});
+
+exitCross.addEventListener("click", (e) => {
+  mobilePopUp.style.display = "none";
+  document.body.style.overflowY = "scroll";
+});
+
+chatBubble.addEventListener("click", (e) => {
+  chatBox.style.visibility = "visible";
+  chatBubble.style.visibility = "hidden";
+  mobileMenu.style.visibility = "hidden";
+  document.body.style.overflowY = "hidden";
+});
+
+arrowDown.addEventListener("click", (e) => {
+  chatBox.style.visibility = "hidden";
+  chatBubble.style.visibility = "visible";
+  mobileMenu.style.visibility = "visible";
+  document.body.style.overflowY = "scroll";
+});
+
+const topPart = document.querySelector(".topPart");
+const mobileMenuSearch = document.querySelector(".mobileMenuSearch");
+const mobileMenuPic = document.querySelector(".mobileMenuPic");
+
+// console.log(burgerMenu);
+
+// console.log(mobilePopUp);
