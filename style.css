@@ -1070,6 +1070,10 @@ p {
   left: 45px;
 }
 
+.subP {
+  display: none;
+}
+
 .last-part {
   position: relative;
   left: 40px;

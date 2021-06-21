@@ -9,6 +9,7 @@
     display: none;
   }
   /* DISPLAY NONES */
+
   nav {
     height: 60px;
     margin: 10px;
@@ -97,7 +98,7 @@
 
   .hidden-menu {
     height: 30px;
-    right: 600px;
+    right: 180px;
   }
 
   .list1,
@@ -564,6 +565,11 @@
     font-size: 30px;
   }
 
+  .shopping-cart,
+  .fleet {
+    height: 90px;
+  }
+
   .e-brochure {
     right: 0px;
   }
@@ -583,5 +589,165 @@
     margin-top: 15px;
     font-size: 10px;
     text-align: left;
+  }
+
+  .tile .fa-chevron-right {
+    display: none;
+  }
+
+  .upButton {
+    position: relative;
+    right: 50px;
+    bottom: 70px;
+  }
+
+  .upButton i {
+    font-size: 15px;
+  }
+
+  .upButton p {
+    font-size: 12px;
+  }
+
+  .sign-up {
+    position: relative;
+    top: 300px;
+    left: 20px;
+    width: 90%;
+    flex-direction: column;
+    height: 200px;
+  }
+
+  .left-hand h3 {
+    font-size: 14px;
+    font-family: "Oxygen", monospace;
+    margin-bottom: 5px;
+  }
+
+  .left-hand p {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .subscribeButton {
+    height: 40px;
+    border-radius: 3px;
+    width: 100%;
+    position: relative;
+    top: 50px;
+  }
+
+  .subscribeButton p {
+    display: none;
+  }
+
+  .subP {
+    display: block;
+    z-index: 100;
+    font-size: 14px !important;
+    font-family: "Oxygen", monospace;
+    font-weight: 900;
+  }
+
+  .last-part {
+    left: 10px;
+    top: 380px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .mercedes li,
+  .benz-parts li,
+  .about-us li,
+  .further-info li,
+  .untitled li {
+    display: none;
+  }
+
+  .mercedes h1,
+  .benz-parts h1,
+  .about-us h1,
+  .further-info h1 {
+    font-size: 12px !important;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.329);
+    width: 90%;
+    line-height: 0px;
+  }
+
+  .mercedes,
+  .benz-parts,
+  .about-us,
+  .further-info,
+  .untitled {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .untitled {
+    left: 10px;
+    top: 0px;
+  }
+
+  .legalCopyrights {
+    height: 250px;
+    width: 90%;
+    left: 15px;
+    top: 450px;
+    flex-direction: column-reverse;
+  }
+
+  .legalCopyrights p {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .finalCaptions {
+    /* background: blueviolet; */
+    position: relative;
+    top: -70px;
+    line-height: 5px;
+  }
+
+  .legalSymbols {
+    bottom: 70px;
+  }
+
+  .legalCopyrights i {
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+    left: 45px;
+  }
+
+  .closeGap,
+  .privacyPolicy,
+  .legalNotice,
+  .cookies {
+    position: relative;
+    right: 0px;
+  }
+
+  .landscapeCaption {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  .chat {
+    color: white;
+    font-size: 70px;
+    position: fixed;
+    z-index: 10;
+    left: 430px;
+    top: 400px;
+  }
+
+  .searchPage {
+    display: none;
   }
 }
