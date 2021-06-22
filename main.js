@@ -209,24 +209,33 @@ servicingBtn.addEventListener("click", (e) => {
 // });
 
 // MAIN JS EVENT LISTENERS
-let mobileWidthSize = 0;
-mobileWidthSize = window.innerWidth <= 426 ? 0 : 1;
+let mobileWidthSize;
+// mobileWidthSize = window.innerWidth <= 426 ? 0 : 1;
 
+if (window.innerWidth <= 445) {
+  mobileWidthSize = 0;
+} else if (window.innerWidth === 845) {
+  mobileWidthSize = 1;
+} else {
+  mobileWidthSize = 10;
+}
+
+console.log(mobileWidthSize, window.innerWidth <= 445);
 // console.log("mobileWidthSize is " + mobileWidthSize);
 
 document.addEventListener("scroll", (e) => {
-  if (pageYOffset >= 150 && mobileWidthSize === 1) {
+  if (pageYOffset >= 150 && mobileWidthSize === 10) {
     pricingInfoContainer.classList.add("slide-up2");
     pricingInfoContainer.classList.remove("pricing-info-container");
   }
 
-  if (pageYOffset >= 200 && mobileWidthSize === 1) {
+  if (pageYOffset >= 200 && mobileWidthSize === 10) {
     thirdNav.classList.add("sticky");
   } else {
     thirdNav.classList.remove("sticky");
   }
 
-  if (pageYOffset < 570 && mobileWidthSize === 1) {
+  if (pageYOffset < 570 && mobileWidthSize === 10) {
     donut1.style.visibility = "hidden";
 
     bulletOneAnim.style.color = "white";
@@ -234,7 +243,7 @@ document.addEventListener("scroll", (e) => {
     bulletOnePara.style.fontWeight = "normal";
   }
 
-  if (pageYOffset >= 570 && mobileWidthSize === 1) {
+  if (pageYOffset >= 570 && mobileWidthSize === 10) {
     shopFromHomeDiv.classList.add("slide-up");
     shopFromHomeDiv.classList.remove("shop-from-home");
 
@@ -252,7 +261,7 @@ document.addEventListener("scroll", (e) => {
     bulletTwoPara.style.fontWeight = "normal";
   }
 
-  if (pageYOffset >= 1250 && mobileWidthSize === 1) {
+  if (pageYOffset >= 1250 && mobileWidthSize === 10) {
     if (counter === 0) {
       agility.classList.add("slide-up2");
       agilityDiv.classList.remove("agilityAnim");
@@ -287,7 +296,7 @@ document.addEventListener("scroll", (e) => {
     bulletThreePara.style.fontWeight = "normal";
   }
 
-  if (pageYOffset >= 1950 && mobileWidthSize === 1) {
+  if (pageYOffset >= 1950 && mobileWidthSize === 10) {
     genuineDiv.classList.add("slide-up2");
     genuineDiv.classList.remove("genuine-accessories");
 
@@ -310,7 +319,7 @@ document.addEventListener("scroll", (e) => {
     bulletFourPara.style.fontWeight = "normal";
   }
 
-  if (pageYOffset >= 2500 && mobileWidthSize === 1) {
+  if (pageYOffset >= 2500 && mobileWidthSize === 10) {
     costComparison.classList.add("slide-up2");
     costComparison.classList.remove("cost-comparison");
 
@@ -333,12 +342,12 @@ document.addEventListener("scroll", (e) => {
     bulletFivePara.style.fontWeight = "normal";
   }
 
-  if (pageYOffset >= 2700 && mobileWidthSize === 1) {
+  if (pageYOffset >= 2700 && mobileWidthSize === 10) {
     footnote.classList.add("slide-up2");
     footnoteAnim.classList.remove("footnoteAnim");
   }
 
-  if (pageYOffset >= 3000 && mobileWidthSize === 1) {
+  if (pageYOffset >= 3000 && mobileWidthSize === 10) {
     donut5.style.visibility = "visible";
     donut5.style.zIndex = "40";
 
@@ -353,7 +362,7 @@ document.addEventListener("scroll", (e) => {
     bulletFourPara.style.fontWeight = "normal";
   }
 
-  if (pageYOffset >= 3500 && mobileWidthSize === 1) {
+  if (pageYOffset >= 3500 && mobileWidthSize === 10) {
     donut5.style.visibility = "hidden";
 
     bulletFiveAnim.style.color = "white";

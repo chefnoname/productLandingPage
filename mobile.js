@@ -48,21 +48,6 @@ document.addEventListener("scroll", (e) => {
   // console.log(pageYOffset);
 });
 
-burgerMenu.addEventListener("click", (e) => {
-  mobilePopUp.classList.add("slideLeft");
-  mobilePopUp.style.display = "block";
-  mobilePopUp.style.overflowY = "scroll";
-  document.body.style.overflowY = "hidden";
-  // mobilePopUp.classList.remove("slideRight");
-  mobilePopUp.style.left = "0px";
-});
-
-exitCross.addEventListener("click", (e) => {
-  document.body.style.overflowY = "scroll";
-
-  mobilePopUp.style.display = "none";
-});
-
 chatBubble.addEventListener("click", (e) => {
   document.body.style.overflowY = "hidden";
 });
@@ -71,8 +56,51 @@ arrowDown.addEventListener("click", (e) => {
   document.body.style.overflowY = "scroll";
 });
 
+burgerMenu.addEventListener("click", (e) => {
+  mobilePopUp.classList.add("slideLeft");
+  mobilePopUp.style.display = "block";
+  mobilePopUp.style.overflowY = "scroll";
+  document.body.style.overflowY = "hidden";
+  // mobilePopUp.classList.remove("slideRight");
+  mobilePopUp.style.left = "0px";
+  chatBubble.style.color = "rgb(58, 56, 56)";
+  chatBubble.style.zIndex = "5000";
+  chatBox.style.zIndex = "5000";
+});
+
+exitCross.addEventListener("click", (e) => {
+  document.body.style.overflowY = "scroll";
+
+  mobilePopUp.style.display = "none";
+  chatBubble.style.color = "white";
+});
+
 const mobileNavMenu = document.querySelector(".mobileNavMenu");
 const mobileNavExit = document.querySelector(".exitt");
+
+const topCar = document.querySelector(".topCar");
+const ourCarMenu = document.querySelector(".ourCarMenu");
+const ourCarExits = document.querySelector(".clickHere2");
+
+topCar.addEventListener("click", (e) => {
+  ourCarMenu.classList.add("slideLeft");
+  ourCarMenu.style.display = "block";
+  ourCarMenu.style.overflowY = "scroll";
+  document.body.style.overflowY = "hidden";
+  ourCarMenu.style.left = "0px";
+  ourCarMenu.classList.remove("backOpaque");
+
+  chatBubble.style.color = "rgb(58, 56, 56)";
+  chatBubble.style.zIndex = "5000";
+  chatBox.style.zIndex = "5000";
+});
+
+ourCarExits.addEventListener("click", (_e) => {
+  document.body.style.overflowY = "scroll";
+  ourCarMenu.style.display = "none";
+
+  chatBubble.style.color = "white";
+});
 
 mobileNav.addEventListener("click", (e) => {
   mobileNavMenu.classList.add("opaque");
@@ -91,35 +119,6 @@ mobileNavExit.addEventListener("click", (e) => {
   document.body.style.overflowY = "scroll";
   mobileNavMenu.classList.remove("opaque");
 });
-
-const topCar = document.querySelector(".topCar");
-const ourCarMenu = document.querySelector(".ourCarMenu");
-const ourCarExits = document.querySelector(".clickHere2");
-
-topCar.addEventListener("click", (e) => {
-  ourCarMenu.classList.add("slideLeft");
-  ourCarMenu.style.display = "block";
-  ourCarMenu.style.overflowY = "scroll";
-  document.body.style.overflowY = "hidden";
-  ourCarMenu.style.left = "0px";
-  ourCarMenu.classList.remove("backOpaque");
-});
-
-ourCarExits.addEventListener("click", (e) => {
-  ourCarMenu.classList.add("backOpaque");
-
-  setTimeout(() => {
-    ourCarMenu.style.visibility = "hidden";
-  }, 400);
-
-  document.body.style.overflowY = "scroll";
-  ourCarMenu.style.display = "none";
-  ourCarMenu.classList.remove("opaque");
-});
-
-console.log(mobileNavMenu);
-console.log(mobileNav);
-
 const mobileNavBar = document.querySelector(".nav-bar");
 
 upButton.addEventListener("click", (e) => {
