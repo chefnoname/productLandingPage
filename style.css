@@ -1447,6 +1447,10 @@ li:hover,
   display: none;
 }
 
+.mobileNavMenu {
+  display: none;
+}
+
 /* PAGE ANIMATIONS */
 
 .slide-up {
@@ -1480,11 +1484,13 @@ li:hover,
   from {
     position: relative;
     top: 200px;
+    opacity: 0%;
   }
 
   to {
     position: relative;
     top: 0px;
+    opacity: 100%;
   }
 }
 
@@ -1492,11 +1498,13 @@ li:hover,
   from {
     position: relative;
     top: 50px;
+    opacity: 0%;
   }
 
   to {
     position: relative;
     top: 0px;
+    opacity: 100%;
   }
 }
 

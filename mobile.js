@@ -58,21 +58,16 @@ burgerMenu.addEventListener("click", (e) => {
 });
 
 exitCross.addEventListener("click", (e) => {
-  mobilePopUp.style.display = "none";
   document.body.style.overflowY = "scroll";
+
+  mobilePopUp.style.display = "none";
 });
 
 chatBubble.addEventListener("click", (e) => {
-  chatBox.style.visibility = "visible";
-  chatBubble.style.visibility = "hidden";
-  mobileMenu.style.visibility = "hidden";
   document.body.style.overflowY = "hidden";
 });
 
 arrowDown.addEventListener("click", (e) => {
-  chatBox.style.visibility = "hidden";
-  chatBubble.style.visibility = "visible";
-  mobileMenu.style.visibility = "visible";
   document.body.style.overflowY = "scroll";
 });
 
@@ -82,6 +77,8 @@ const mobileNavExit = document.querySelector(".exitt");
 mobileNav.addEventListener("click", (e) => {
   mobileNavMenu.classList.add("opaque");
   mobileNavMenu.style.visibility = "visible";
+  document.body.style.overflowY = "hidden";
+  mobileNavMenu.classList.remove("backOpaque");
 });
 
 mobileNavExit.addEventListener("click", (e) => {
@@ -89,14 +86,47 @@ mobileNavExit.addEventListener("click", (e) => {
 
   setTimeout(() => {
     mobileNavMenu.style.visibility = "hidden";
-  }, 2000);
+  }, 400);
 
+  document.body.style.overflowY = "scroll";
   mobileNavMenu.classList.remove("opaque");
+});
+
+const topCar = document.querySelector(".topCar");
+const ourCarMenu = document.querySelector(".ourCarMenu");
+const ourCarExits = document.querySelector(".clickHere2");
+
+topCar.addEventListener("click", (e) => {
+  ourCarMenu.classList.add("slideLeft");
+  ourCarMenu.style.display = "block";
+  ourCarMenu.style.overflowY = "scroll";
+  document.body.style.overflowY = "hidden";
+  ourCarMenu.style.left = "0px";
+  ourCarMenu.classList.remove("backOpaque");
+});
+
+ourCarExits.addEventListener("click", (e) => {
+  ourCarMenu.classList.add("backOpaque");
+
+  setTimeout(() => {
+    ourCarMenu.style.visibility = "hidden";
+  }, 400);
+
+  document.body.style.overflowY = "scroll";
+  ourCarMenu.style.display = "none";
+  ourCarMenu.classList.remove("opaque");
 });
 
 console.log(mobileNavMenu);
 console.log(mobileNav);
 
+const mobileNavBar = document.querySelector(".nav-bar");
+
+upButton.addEventListener("click", (e) => {
+  mobileNavBar.scrollIntoView({
+    behavior: "smooth",
+  });
+});
 // const topPart = document.querySelector(".topPart");
 // const mobileMenuSearch = document.querySelector(".mobileMenuSearch");
 // const mobileMenuPic = document.querySelector(".mobileMenuPic");

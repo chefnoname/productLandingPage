@@ -236,7 +236,7 @@
   }
 
   .chat-box {
-    height: 530px;
+    height: 580px;
     width: 100%;
     position: fixed;
     z-index: 2100;
@@ -818,7 +818,8 @@
     width: 80%;
   }
 
-  .mobileMenu {
+  .mobileMenu,
+  .ourCarMenu {
     position: absolute;
     height: 560px;
     width: 320px;
@@ -845,10 +846,12 @@
   @keyframes slideLeft {
     from {
       left: 320px;
+      opacity: 0%;
     }
 
     to {
       left: 0px;
+      opacity: 100%;
     }
   }
 
@@ -862,18 +865,28 @@
     }
   }
 
-  .mobileMenu p {
+  .mobileMenu p,
+  .ourCarsList p {
     display: block;
     color: black;
     font-family: "Oxygen", monospace;
   }
 
-  .topPart {
+  .topPart,
+  .ourPart {
     height: 230px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-content: flex-end;
+  }
+
+  .ourPart h1 {
+    font-family: "Newsreader", serif;
+    position: relative;
+    left: 60px;
+    top: 50px;
+    font-size: 45px;
   }
 
   .topPart img {
@@ -887,9 +900,10 @@
     top: 150px;
   }
 
-  .mobileList {
+  .mobileList,
+  .ourCarsList {
     background-color: white;
-    height: 499px;
+    height: 510px;
     padding: 20px;
     line-height: 70px;
   }
@@ -910,7 +924,25 @@
   .financeInsurance {
     display: flex;
     justify-content: space-between;
-    /* border-bottom: 2px solid rgba(58, 56, 56, 0.164); */
+    border-bottom: 2px solid rgba(58, 56, 56, 0.164);
+  }
+
+  .ourCarsList {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* line-height: 10px; */
+  }
+
+  .ourCarsList p {
+    border-bottom: 2px solid rgba(58, 56, 56, 0.164);
+  }
+
+  .clickHere2 {
+    color: white;
+    position: relative;
+    top: 150px;
+    font-size: 30px !important;
   }
 
   .mobileNavMenu {
@@ -924,6 +956,7 @@
     padding-bottom: 15px;
     padding-left: 15px;
     line-height: 50px;
+    display: block;
     visibility: hidden;
   }
 
@@ -1031,11 +1064,13 @@
     from {
       position: relative;
       top: -150px;
+      opacity: 0%;
     }
 
     to {
       position: relative;
       top: -250px;
+      opacity: 100%;
     }
   }
 
@@ -1043,11 +1078,13 @@
     from {
       position: relative;
       top: 50px;
+      opacity: 0%;
     }
 
     to {
       position: relative;
       top: 0px;
+      opacity: 100%;
     }
   }
 
@@ -1055,41 +1092,49 @@
     from {
       position: relative;
       top: 0px;
+      opacity: 0%;
     }
 
     to {
       position: relative;
       top: -70px;
+      opacity: 100%;
     }
   }
 
   @keyframes MobileInsurance {
     from {
       margin-top: 70px;
+      opacity: 0%;
     }
 
     to {
       margin-top: 20px;
+      opacity: 100%;
     }
   }
 
   @keyframes GenuineAnim {
     from {
       margin-top: 70px;
+      opacity: 0%;
     }
 
     to {
       margin-top: 0px;
+      opacity: 100%;
     }
   }
 
   @keyframes CostCompareAnim {
     from {
       top: 250px;
+      opacity: 0%;
     }
 
     to {
       top: 150px;
+      opacity: 100%;
     }
   }
 }
