@@ -76,10 +76,29 @@ arrowDown.addEventListener("click", (e) => {
   document.body.style.overflowY = "scroll";
 });
 
-const topPart = document.querySelector(".topPart");
-const mobileMenuSearch = document.querySelector(".mobileMenuSearch");
-const mobileMenuPic = document.querySelector(".mobileMenuPic");
+const mobileNavMenu = document.querySelector(".mobileNavMenu");
+const mobileNavExit = document.querySelector(".exitt");
 
+mobileNav.addEventListener("click", (e) => {
+  mobileNavMenu.classList.add("opaque");
+  mobileNavMenu.style.visibility = "visible";
+});
+
+mobileNavExit.addEventListener("click", (e) => {
+  mobileNavMenu.classList.add("backOpaque");
+
+  setTimeout(() => {
+    mobileNavMenu.style.visibility = "hidden";
+  }, 2000);
+
+  mobileNavMenu.classList.remove("opaque");
+});
+
+console.log(mobileNavMenu);
+console.log(mobileNav);
+
+// const topPart = document.querySelector(".topPart");
+// const mobileMenuSearch = document.querySelector(".mobileMenuSearch");
+// const mobileMenuPic = document.querySelector(".mobileMenuPic");
 // console.log(burgerMenu);
-
 // console.log(mobilePopUp);

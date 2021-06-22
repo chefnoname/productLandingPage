@@ -913,6 +913,67 @@
     /* border-bottom: 2px solid rgba(58, 56, 56, 0.164); */
   }
 
+  .mobileNavMenu {
+    position: absolute;
+    height: 530px;
+    width: 320px;
+    background: rgba(0, 0, 0, 0.836);
+    z-index: 5000;
+    left: 0px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    line-height: 50px;
+    visibility: hidden;
+  }
+
+  .opaque {
+    -webkit-animation: opaque 0.5s ease-in-out;
+    -moz-animation: opaque 0.5s ease-in-out;
+    -o-animation: opaque 0.5s ease-in-out;
+    animation: opaque 0.5s ease-in-out;
+  }
+
+  .backOpaque {
+    -webkit-animation: backOpaque 0.5s ease-in-out;
+    -moz-animation: backOpaque 0.5s ease-in-out;
+    -o-animation: backOpaque 0.5s ease-in-out;
+    animation: backOpaque 0.5s ease-in-out;
+  }
+
+  @keyframes opaque {
+    from {
+      opacity: 0%;
+    }
+
+    to {
+      opacity: 100%;
+    }
+  }
+
+  @keyframes backOpaque {
+    from {
+      opacity: 100%;
+    }
+
+    to {
+      opacity: 0%;
+    }
+  }
+
+  .mobileNavMenu p {
+    display: block;
+    color: white;
+    font-family: "Oxygen", monospace;
+    font-weight: 900;
+  }
+  .mobileNavMenu i {
+    position: relative;
+    bottom: 370px;
+    left: 270px;
+    color: white;
+  }
+
   /* Mobile Animations */
 
   .mobileSlideUp {
