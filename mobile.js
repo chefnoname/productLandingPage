@@ -22,27 +22,27 @@ document.addEventListener("scroll", (e) => {
   }
   lastScrollTop = st <= 0 ? 0 : st;
 
-  if (pageYOffset >= 500) {
+  if (pageYOffset >= 250) {
     shopFromHomeDiv.classList.add("mobileSlideUp");
   }
 
-  if (pageYOffset >= 1500) {
+  if (pageYOffset >= 800) {
     mobilePersonal.classList.add("mobileSlideUp2");
   }
 
-  if (pageYOffset >= 1800) {
+  if (pageYOffset >= 1200) {
     mobileInsurance.classList.add("mobileSlideUp3");
   }
 
-  if (pageYOffset >= 2200) {
+  if (pageYOffset >= 1500) {
     mobileService.classList.add("mobileSlideUp3");
   }
 
-  if (pageYOffset >= 2700) {
+  if (pageYOffset >= 2300) {
     genuinePic.classList.add("mobileSlideUp5");
   }
 
-  if (pageYOffset >= 3400) {
+  if (pageYOffset >= 2800) {
     costComparison.classList.add("mobileSlideUp6");
   }
   // console.log(pageYOffset);

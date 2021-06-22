@@ -10,6 +10,10 @@
   }
   /* DISPLAY NONES */
 
+  .wrapper {
+    overflow-x: hidden;
+  }
+
   nav {
     height: 60px;
     margin: 10px;
@@ -18,10 +22,11 @@
   }
 
   nav img {
-    height: 40px;
-    width: 40px;
-    margin-right: 250px;
-    /* margin-bottom: 20px; */
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 15px;
   }
 
   nav i {
@@ -42,22 +47,22 @@
     display: block;
     flex: 1;
     position: relative;
-    right: 450px;
+    right: 360px;
     margin-top: 10px;
   }
 
   .topSearch {
     position: relative;
-    right: 220px;
+    right: 10px;
     bottom: 20px;
     color: white;
   }
 
   .third-nav {
     height: 25px;
-    width: 530px;
+    width: 680px;
     top: 100px;
-    left: 10px;
+    left: 30px;
   }
 
   .third-nav p {
@@ -93,12 +98,13 @@
     display: block;
   }
   .car-container {
-    background-size: 75%;
+    background-size: 100%;
   }
 
   .hidden-menu {
     height: 30px;
-    right: 180px;
+    right: 235px;
+    position: fixed !important;
   }
 
   .list1,
@@ -131,7 +137,7 @@
   }
 
   .product-description {
-    width: 170px;
+    width: 210px;
     left: 30px;
     top: 140px;
     letter-spacing: 0px;
@@ -140,34 +146,34 @@
   }
 
   .product-description h3 {
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     font-weight: 900;
     text-align: left;
   }
 
   .purchase-info {
-    width: 80px;
-    height: 60px;
+    width: 100px;
+    height: 80px;
     position: absolute;
-    top: 260px;
+    top: 350px;
     left: 40px;
     padding: 10px;
     background-color: rgb(14, 165, 235);
   }
 
   .purchase-info p {
-    font-size: 10px;
+    font-size: 15px;
     position: relative;
     top: -5px;
     font-weight: bold;
-    line-height: 15px;
-    width: 55px;
+    line-height: 20px;
+    width: 59px;
   }
 
   .purchase-info i {
-    top: -20px;
-    left: 50px;
+    top: -15px;
+    left: 70px;
     font-size: 15px;
   }
 
@@ -202,26 +208,29 @@
 
   .pricing-info-container {
     position: relative;
-    top: -350px;
+    top: -300px;
+    left: 30px;
   }
 
   .find-out h1 {
     position: relative;
-    right: 120px;
-    font-size: 20px;
+    top: 30px;
+    right: 20px;
+    font-size: 30px;
   }
 
   .pricing-images {
     width: 70%;
+    left: 80px;
   }
 
   .pricing-left .fa-pound-sign {
-    font-size: 40px;
+    font-size: 50px;
     left: 40%;
   }
 
   .pricing-right .fa-scroll {
-    font-size: 40px;
+    font-size: 50px;
     left: 40%;
   }
 
@@ -267,19 +276,20 @@
     margin-top: 30px;
     position: relative;
     top: -300px;
+    left: 20px;
   }
 
   .left-content h3 {
-    font-size: 16px;
+    font-size: 25px;
     margin-bottom: 30px;
     left: 10px;
   }
 
   .para-content {
-    font-size: 10px;
+    font-size: 15px;
     left: 10px;
     margin-bottom: 50px;
-    width: 50%;
+    width: 80%;
   }
 
   .buttons {
@@ -314,18 +324,18 @@
   }
 
   .right-content img {
-    height: 151px;
-    width: 250px;
+    height: 200px;
+    width: 320px;
     position: relative;
-    right: 210px;
-    top: 40px;
+    right: 10px;
+    top: 20px;
   }
 
   .corner-search {
     height: 25px;
     width: 25px;
-    right: 230px;
-    bottom: 83px;
+    right: 30px;
+    bottom: 105px;
   }
 
   .corner-search i {
@@ -343,24 +353,26 @@
   }
 
   .sub-title h2 {
-    left: 10px;
-    font-size: 16px;
+    left: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
   }
 
   .underline {
     border-bottom: 1px solid white;
-    left: 10px;
+    left: 30px;
   }
 
   .financing-insuring h3 {
-    font-size: 14px;
-    left: 10px;
+    font-size: 20px;
+    left: 30px;
   }
 
   .products-services p {
     font-family: "Oxygen", monospace;
-    font-size: 10px;
+    font-size: 14px;
+    position: relative;
+    bottom: 5px;
   }
 
   .productButtons {
@@ -368,18 +380,19 @@
     margin-bottom: 30px;
     position: relative;
     bottom: 30px;
+    left: 20px;
   }
 
   .insurance,
   .servicing {
     height: 25px;
-    width: 60px;
+    width: 80px;
     left: 10px;
   }
 
   .personal-finance {
     height: 25px;
-    width: 100px;
+    width: 120px;
     left: 10px;
   }
 
@@ -388,13 +401,14 @@
     justify-content: space-between;
     position: relative;
     bottom: 25px;
+    left: 30px;
   }
 
   .personalFinancePics img,
   .personalContactHire img,
   .personal-operating img {
-    height: 130px;
-    width: 240px;
+    height: 180px;
+    width: 320px;
     position: relative;
   }
 
@@ -418,14 +432,15 @@
 
   .personal-operating {
     position: relative;
-    right: 270px;
-    top: 180px;
+    right: 350px;
+    top: 235px;
   }
 
   .personalContactHire {
     position: relative;
     right: 30px;
     bottom: 19px;
+    left: 0px;
   }
 
   .first-cover {
@@ -442,22 +457,22 @@
   .plus4 {
     width: 20px;
     height: 20px;
-    bottom: 45px;
+    bottom: 50px;
     font-size: 15px;
     padding-top: 2px;
   }
 
   .plus1,
   .plus4 {
-    left: 255px;
+    left: 335px;
   }
 
   .plus2 {
-    left: 235px;
+    left: 315px;
   }
 
   .plus3 {
-    left: 215px;
+    left: 295px;
   }
 
   .genuine-accessories {
@@ -468,35 +483,36 @@
   .genuine-info-container {
     display: flex;
     justify-content: space-between;
+    width: 768px !important;
   }
 
   .genuine-info-container p {
-    width: 80%;
-    font-size: 12px;
-    left: 10px;
+    font-size: 14px;
+    left: 30px;
     margin-right: 10px;
     bottom: 30px;
     font-weight: 400;
+    width: 280px;
   }
 
   .genuine-info-container img {
-    right: 5px;
-    height: 170px;
-    width: 300px;
+    left: -40px;
+    height: 200px;
+    width: 400px;
   }
 
   .genuine-corner-search {
     height: 25px;
     width: 25px;
     font-size: 15px;
-    top: 145px;
-    right: 5px;
+    top: 175px;
+    right: -192px;
   }
 
   .genuineButton {
-    left: 10px;
+    left: 30px;
     bottom: 10px;
-    width: 170px;
+    width: 190px;
   }
 
   .genuineButton p {
@@ -504,6 +520,7 @@
     margin-right: 0px;
     left: 0px;
     top: 6px;
+    font-size: 12px !important;
   }
 
   .cost-comparison {
@@ -743,7 +760,7 @@
     font-size: 70px;
     position: fixed;
     z-index: 10;
-    left: 430px;
+    left: 600px;
     top: 400px;
   }
 

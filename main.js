@@ -214,13 +214,13 @@ let mobileWidthSize;
 
 if (window.innerWidth <= 445) {
   mobileWidthSize = 0;
-} else if (window.innerWidth === 845) {
+} else if (window.innerWidth === 1115) {
   mobileWidthSize = 1;
 } else {
   mobileWidthSize = 10;
 }
 
-console.log(mobileWidthSize, window.innerWidth <= 445);
+console.log(mobileWidthSize, window.innerWidth);
 // console.log("mobileWidthSize is " + mobileWidthSize);
 
 document.addEventListener("scroll", (e) => {
