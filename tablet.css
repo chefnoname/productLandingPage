@@ -180,26 +180,7 @@
   }
 
   .hidden-nav {
-    width: 165px;
-    height: 270px;
-    top: 128px;
-    left: -250px;
-  }
-
-  .hidden-nav h3 {
-    font-size: 12px;
-  }
-
-  .hidden-nav li {
-    font-size: 20px;
-    line-height: 38px;
-    margin-left: 5px;
-  }
-
-  .hidden-nav li span {
-    margin-left: 20px;
-    font-size: 10px;
-    top: 8px;
+    display: none;
   }
 
   .display-bulletPoint ul {
@@ -676,6 +657,7 @@
     font-size: 14px !important;
     font-family: "Oxygen", monospace;
     font-weight: 900;
+    margin-top: 15px;
   }
 
   .last-part {
@@ -786,5 +768,72 @@
 
   .searchPage {
     display: none;
+  }
+
+  .doughnut {
+    height: 15px;
+    width: 15px;
+    top: 171px;
+    left: -6.3px;
+  }
+
+  .donut2 {
+    top: 211px;
+  }
+
+  .donut3 {
+    top: 251px;
+  }
+
+  .donut4 {
+    top: 291px;
+  }
+  .donut5 {
+    top: 331px;
+  }
+
+  /* .mobileMenu, */
+  .ourCarMenu {
+    position: absolute;
+    height: 350px;
+    width: 320px;
+    z-index: 2500;
+    background: black;
+    left: -30px;
+    right: 20px;
+    top: 100px;
+    display: none;
+  }
+
+  /* .topPart, */
+  .ourPart {
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+  }
+
+  .ourPart h1 {
+    font-family: "Oxygen", serif;
+    position: relative;
+    left: 0px;
+    top: -10px;
+    font-size: 16px;
+  }
+
+  /* .mobileMenu p, */
+  .ourCarsList p {
+    display: block;
+    color: black;
+    font-family: "Oxygen", monospace;
+  }
+
+  /* .mobileList, */
+  .ourCarsList {
+    background-color: white;
+    height: 510px;
+    padding: 20px;
+    line-height: 70px;
   }
 }
