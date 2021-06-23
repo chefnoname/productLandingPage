@@ -77,9 +77,20 @@ const donut5 = document.querySelector(".donut5");
 
 let counter = 0;
 
-document.addEventListener("click", () => {
+const reloadIt = () => {
   location.reload();
-});
+};
+
+// if (sessionStorage.getItem("homePageView") === null && mobileWidthSize === 10) {
+//   sessionStorage.setItem("homePageView", 1);
+//   document.addEventListener("click", reloadIt);
+//   sessionStorage.setItem("mobileView", 1);
+// }
+
+// if (sessionStorage.getItem("tabletView") === null && mobileWidthSize === 1) {
+//   document.addEventListener("click", reloadIt);
+//   sessionStorage.setItem("tabletView", 1);
+// }
 
 document.addEventListener("mousemove", (e) => {
   if (event.clientX <= 35) {

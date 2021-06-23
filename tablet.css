@@ -697,6 +697,14 @@
     left: 40px;
   }
 
+  .mercedes i,
+  .benz-parts i,
+  .about-us i,
+  .further-info i,
+  .untitled i {
+    display: block;
+  }
+
   .mercedes,
   .benz-parts,
   .about-us,
@@ -930,6 +938,141 @@
     height: 40px;
     left: 60px;
     top: 40px;
+  }
+
+  .chat {
+    display: none;
+  }
+
+  /* PAGE ANIMATIONS */
+
+  .mobileSlideUp {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+    -webkit-animation: MobileSlideUp 1.2s ease;
+    -moz-animation: MobileSlideUp 1.2s ease;
+    -o-animation: MobileSlideUp 1.2s ease;
+    animation: MobileSlideUp 1.2s ease;
+  }
+
+  .mobileSlideUp2 {
+    -webkit-animation: PersonalFinanceMobileSlideUp 1.2s ease;
+    -moz-animation: PersonalFinanceMobileSlideUp 1.2s ease;
+    -o-animation: PersonalFinanceMobileSlideUp 1.2s ease;
+    animation: PersonalFinanceMobileSlideUp 1.2s ease;
+    /* top: 200px; */
+  }
+
+  .mobileSlideUp3 {
+    -webkit-animation: MobileInsurance 1.2s ease;
+    -moz-animation: MobileInsurance 1.2s ease;
+    -o-animation: MobileInsurance 1.2s ease;
+    animation: MobileInsurance 1.2s ease;
+    /* top: 200px; */
+  }
+
+  .mobileSlideUp4 {
+    -webkit-animation: miniSlideUp 1.2s ease;
+    -moz-animation: miniSlideUp 1.2s ease;
+    -o-animation: miniSlideUp 1.2s ease;
+    animation: miniSlideUp 1.2s ease;
+    /* top: 200px; */
+  }
+
+  .mobileSlideUp5 {
+    -webkit-animation: GenuineAnim 1.2s ease;
+    -moz-animation: GenuineAnim 1.2s ease;
+    -o-animation: GenuineAnim 1.2s ease;
+    animation: GenuineAnim 1.2s ease;
+    /* top: 200px; */
+  }
+
+  .mobileSlideUp6 {
+    -webkit-animation: CostCompareAnim 1.2s ease;
+    -moz-animation: CostCompareAnim 1.2s ease;
+    -o-animation: CostCompareAnim 1.2s ease;
+    animation: CostCompareAnim 1.2s ease;
+    /* top: 200px; */
+  }
+
+  @keyframes MobileSlideUp {
+    from {
+      position: relative;
+      top: -150px;
+      opacity: 0%;
+    }
+
+    to {
+      position: relative;
+      top: -250px;
+      opacity: 100%;
+    }
+  }
+
+  @keyframes miniSlideUp {
+    from {
+      position: relative;
+      top: 50px;
+      opacity: 0%;
+    }
+
+    to {
+      position: relative;
+      top: 0px;
+      opacity: 100%;
+    }
+  }
+
+  @keyframes PersonalFinanceMobileSlideUp {
+    from {
+      position: relative;
+      top: 0px;
+      opacity: 0%;
+    }
+
+    to {
+      position: relative;
+      top: -70px;
+      opacity: 100%;
+    }
+  }
+
+  @keyframes MobileInsurance {
+    from {
+      margin-top: 70px;
+      opacity: 0%;
+    }
+
+    to {
+      margin-top: 20px;
+      opacity: 100%;
+    }
+  }
+
+  @keyframes GenuineAnim {
+    from {
+      margin-top: 70px;
+      opacity: 0%;
+    }
+
+    to {
+      margin-top: 0px;
+      opacity: 100%;
+    }
+  }
+
+  @keyframes CostCompareAnim {
+    from {
+      top: 250px;
+      opacity: 0%;
+    }
+
+    to {
+      top: 150px;
+      opacity: 100%;
+    }
   }
 }
 

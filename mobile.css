@@ -740,6 +740,14 @@
     width: 100%;
   }
 
+  .mercedes i,
+  .benz-parts i,
+  .about-us i,
+  .further-info i,
+  .untitled i {
+    display: block;
+  }
+
   .mercedes li,
   .benz-parts li,
   .about-us li,

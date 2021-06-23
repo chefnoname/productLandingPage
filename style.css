@@ -1523,3 +1523,11 @@ li:hover,
 .mobile-nav {
   display: none;
 }
+
+.mercedes i,
+.benz-parts i,
+.about-us i,
+.further-info i,
+.untitled i {
+  display: none;
+}
