@@ -17,6 +17,10 @@ if (mobileWidthSize === 1) {
       bulletOnePara.style.fontWeight = "normal";
     }
 
+    if (pageYOffset >= 350) {
+      shopFromHomeDiv.classList.add("shopFromTabletSlide");
+    }
+
     if (pageYOffset >= 650) {
       donut1.style.visibility = "visible";
       donut1.style.zIndex = "40";
@@ -32,6 +36,11 @@ if (mobileWidthSize === 1) {
     }
 
     //   Bullet 2 pageY = 650 / 700
+
+    if (pageYOffset >= 880) {
+      agility.classList.add("agilityTabletSlide");
+      hirePurchase.classList.add("agilityTabletSlide");
+    }
 
     if (pageYOffset >= 900) {
       donut2.style.visibility = "visible";
@@ -49,6 +58,10 @@ if (mobileWidthSize === 1) {
       bulletThreePara.style.fontWeight = "normal";
     }
     //   Bullet 3 pageY = 900 / 1000
+    if (pageYOffset >= 1500) {
+      genuineDiv.classList.add("agilityTabletSlide");
+    }
+
     if (pageYOffset >= 1700) {
       donut3.style.visibility = "visible";
       donut3.style.zIndex = "40";
@@ -65,6 +78,11 @@ if (mobileWidthSize === 1) {
       bulletFourPara.style.fontWeight = "normal";
     }
     //   Bullet 4 pageY = 1700
+
+    if (pageYOffset >= 1800) {
+      costComparison.classList.add("agilityTabletSlide");
+    }
+
     if (pageYOffset >= 2300) {
       donut4.style.visibility = "visible";
       donut4.style.zIndex = "40";
