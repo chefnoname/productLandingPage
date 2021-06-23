@@ -77,6 +77,10 @@ const donut5 = document.querySelector(".donut5");
 
 let counter = 0;
 
+document.addEventListener("click", () => {
+  location.reload();
+});
+
 document.addEventListener("mousemove", (e) => {
   if (event.clientX <= 35) {
     hiddenNav.classList.add("hidden-navAnim");
@@ -350,10 +354,11 @@ arrowDown.addEventListener("click", (e) => {
 });
 
 rightSideSearch.addEventListener("click", (e) => {
-  searchPage.style.zIndex = "30";
+  searchPage.style.zIndex = "3000";
   exitButton.style.visibility = "visible";
   thirdNav.style.visibility = "hidden";
   chatBubble.style.visibility = "hidden";
+  document.body.style.overflowY = "hidden";
 });
 
 exitButton.addEventListener("click", (e) => {
@@ -361,6 +366,7 @@ exitButton.addEventListener("click", (e) => {
   exitButton.style.visibility = "hidden";
   thirdNav.style.visibility = "visible";
   chatBubble.style.visibility = "visible";
+  document.body.style.overflowY = "scroll";
 });
 
 bulletOnePara.addEventListener("mouseover", (e) => {

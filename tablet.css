@@ -766,10 +766,6 @@
     top: 400px;
   }
 
-  .searchPage {
-    display: none;
-  }
-
   .doughnut {
     height: 15px;
     width: 15px;
@@ -792,21 +788,59 @@
     top: 331px;
   }
 
-  /* .mobileMenu, */
-  .ourCarMenu {
-    position: absolute;
+  .ourCarMenu,
+  .mobileMenu {
+    position: relative;
     height: 350px;
-    width: 320px;
+    width: 520px;
     z-index: 2500;
-    background: black;
-    left: -30px;
-    right: 20px;
+    background: white;
+    left: -420px !important;
     top: 100px;
     display: none;
+    border-radius: 5px;
   }
 
-  /* .topPart, */
-  .ourPart {
+  .tabletSlide {
+    -webkit-animation: tabletSlide 0.5s ease-in-out;
+    -moz-animation: tabletSlide 0.5s ease-in-out;
+    -o-animation: tabletSlide 0.5s ease-in-out;
+    animation: tabletSlide 0.5s ease-in-out;
+  }
+
+  @keyframes tabletSlide {
+    from {
+      left: -820px;
+      opacity: 0%;
+    }
+
+    to {
+      left: -420px;
+      opacity: 100%;
+    }
+  }
+
+  .backTabSlide {
+    -webkit-animation: backTabSlide 0.5s ease-in-out;
+    -moz-animation: backTabSlide 0.5s ease-in-out;
+    -o-animation: backTabSlide 0.5s ease-in-out;
+    animation: backTabSlide 0.5s ease-in-out;
+  }
+
+  @keyframes backTabSlide {
+    from {
+      left: -420px;
+      opacity: 100%;
+    }
+
+    to {
+      left: -820px;
+      opacity: 0%;
+    }
+  }
+
+  .ourPart,
+  .topPart {
     height: 30px;
     padding: 20px;
     display: flex;
@@ -816,24 +850,90 @@
 
   .ourPart h1 {
     font-family: "Oxygen", serif;
-    position: relative;
     left: 0px;
     top: -10px;
     font-size: 16px;
+    color: rgba(77, 73, 73, 0.795);
+    font-weight: 100;
   }
 
-  /* .mobileMenu p, */
-  .ourCarsList p {
+  .topPart img {
+    display: none;
+  }
+
+  .topPart .fa-search {
+    visibility: hidden;
+  }
+
+  .ourPart i,
+  .topPart i {
+    color: black;
+    position: relative;
+    bottom: 10px;
+    right: 5px;
+    font-size: 30px;
+  }
+
+  .ourCarsList p,
+  .mobileMenu p {
     display: block;
     color: black;
     font-family: "Oxygen", monospace;
   }
-
-  /* .mobileList, */
-  .ourCarsList {
+  .ourCarsList,
+  .mobileList {
     background-color: white;
-    height: 510px;
+    height: 450px;
     padding: 20px;
+    line-height: 30px;
+  }
+
+  .ourCarsList {
     line-height: 70px;
   }
+
+  .mobileList i {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -31px;
+    left: 220px;
+  }
+
+  .searchPage {
+    width: 768px;
+    height: 529px;
+  }
+
+  .searchPage img {
+    left: 250px;
+  }
+
+  .exit {
+    left: 650px;
+  }
+
+  .exit i {
+    font-size: 30px;
+  }
+
+  .searchPage .fa-search {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    left: 50px;
+    top: 42px;
+  }
+
+  .searchBar {
+    width: 500px;
+    height: 40px;
+    left: 60px;
+    top: 40px;
+  }
 }
+
+/* COLOURS: */
+
+/* color: rgba(14, 165, 235, 0.897); */
+/* background: rgba(102, 100, 100, 0.329); */

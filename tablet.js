@@ -2,10 +2,12 @@ const wrapper = document.querySelector(".wrapper");
 const wrapPricingInfo = document.querySelector(".wrapPricingInfo");
 const wrapProducts = document.querySelector(".wrapProducts");
 const wrapGenuine = document.querySelector(".wrapGenuine");
+const leftSideMercSign = document.querySelector(".leftSideMerc");
 
 if (mobileWidthSize === 1) {
   document.addEventListener("scroll", (e) => {
-    //   console.log(pageYOffset);
+    // console.log(pageYOffset);
+
     //   Bullet 1 pageY = 300
     if (pageYOffset < 300) {
       donut1.style.visibility = "hidden";
@@ -99,27 +101,45 @@ if (mobileWidthSize === 1) {
     }
   });
 
-  bulletOnePara.addEventListener("click", (e) => {
-    wrapPricingInfo.scrollIntoView({
-      behavior: "smooth",
-      block: "center",
-      inline: "end",
-    });
-  });
-
-  bulletTwoPara.addEventListener("click", (e) => {
-    wrapProducts.scrollIntoView({ behavior: "smooth", block: "start" });
-  });
-
-  bulletThreePara.addEventListener("click", (e) => {
-    wrapGenuine.scrollIntoView({
-      behavior: "smooth",
-      block: "center",
-    });
-  });
-
   upButton.addEventListener("click", (e) => {
     // wrapper.scrollIntoView(true);
     wrapper.scrollIntoView({ behavior: "smooth", inline: "nearest" });
   });
+
+  topCar.addEventListener("click", (e) => {
+    ourCarMenu.classList.add("tabletSlide");
+
+    ourCarMenu.style.left = "0px";
+    ourCarMenu.classList.remove("backTabSlide");
+
+    leftSideMercSign.style.position = "relative";
+    leftSideMercSign.style.left = "155px";
+
+    rightSideSearch.style.position = "relative";
+    rightSideSearch.style.left = "280px";
+  });
+
+  ourCarExits.addEventListener("click", (e) => {
+    leftSideMercSign.style.left = "00px";
+    rightSideSearch.style.left = "0px";
+  });
+
+  burgerMenu.addEventListener("click", (e) => {
+    mobilePopUp.classList.add("tabletSlide");
+
+    leftSideMercSign.style.position = "relative";
+    leftSideMercSign.style.left = "155px";
+
+    rightSideSearch.style.position = "relative";
+    rightSideSearch.style.left = "280px";
+  });
+
+  exitCross.addEventListener("click", (e) => {
+    mobilePopUp.classList.remove("tabletSlide");
+
+    leftSideMercSign.style.left = "00px";
+    rightSideSearch.style.left = "0px";
+  });
+
+  console.log(pageYOffset);
 }
