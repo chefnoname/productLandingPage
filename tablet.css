@@ -11,7 +11,7 @@
   /* DISPLAY NONES */
 
   .wrapper {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   nav {
@@ -61,8 +61,9 @@
   .third-nav {
     height: 25px;
     width: 680px;
-    top: 100px;
+    top: 40px;
     left: 30px;
+    position: relative !important;
   }
 
   .third-nav p {
@@ -103,7 +104,7 @@
 
   .hidden-menu {
     height: 30px;
-    right: 235px;
+
     position: fixed !important;
   }
 
@@ -139,10 +140,11 @@
   .product-description {
     width: 210px;
     left: 30px;
-    top: 140px;
+    top: 80px;
     letter-spacing: 0px;
     line-height: 25px;
     padding: 15px;
+    position: relative;
   }
 
   .product-description h3 {
@@ -155,8 +157,8 @@
   .purchase-info {
     width: 100px;
     height: 80px;
-    position: absolute;
-    top: 350px;
+    position: relative;
+    top: 100px;
     left: 40px;
     padding: 10px;
     background-color: rgb(14, 165, 235);
@@ -525,6 +527,7 @@
 
   .cost-comparison {
     top: 0px;
+    left: 60px;
   }
 
   .cost-compare h2 {
@@ -532,28 +535,33 @@
   }
 
   .cost-compare {
-    width: 41%;
+    width: 50%;
     bottom: 25px;
+    text-align: center;
   }
 
   .cost-compare img {
-    height: 70px;
-    width: 70px;
-    margin-left: 30px;
+    height: 90px;
+    width: 90px;
+    margin-left: 60px;
   }
 
   .costButton {
-    width: 110px;
-    left: 10px;
+    width: 130px;
+    left: 25px;
   }
 
   .costButton p {
-    top: 0px;
+    top: -3px;
   }
 
   .footnote {
-    left: 10px;
-    width: 95%;
+    left: 30px;
+    width: 700px;
+  }
+
+  .footnote p {
+    font-size: 12px;
   }
 
   .footnoteAnim {
@@ -562,7 +570,7 @@
 
   .tileUnder {
     margin-top: 00px;
-    left: 10px;
+    left: 30px;
     top: 50px;
   }
 
@@ -573,8 +581,8 @@
 
   .tile {
     display: flex;
-    width: 125px;
-    height: 110px;
+    width: 255px;
+    height: 150px;
     padding: 15px;
   }
 
@@ -582,29 +590,33 @@
     font-size: 30px;
   }
 
-  .shopping-cart,
+  /* .shopping-cart,
   .fleet {
     height: 90px;
+  } */
+
+  .shopping-cart {
+    left: 50px;
   }
 
   .e-brochure {
-    right: 0px;
+    left: 70px;
   }
 
   .plug-ins {
-    right: 5px;
+    left: 90px;
   }
 
   .fleet {
-    right: 10px;
+    left: 110px;
   }
 
   .tile p {
     position: relative;
-    top: 0px;
+    top: 20px;
     right: 10px;
     margin-top: 15px;
-    font-size: 10px;
+    font-size: 14px;
     text-align: left;
   }
 
@@ -614,7 +626,7 @@
 
   .upButton {
     position: relative;
-    right: 50px;
+    left: 80px;
     bottom: 70px;
   }
 
@@ -629,14 +641,14 @@
   .sign-up {
     position: relative;
     top: 300px;
-    left: 20px;
-    width: 90%;
+    left: 40px;
+    width: 650px;
     flex-direction: column;
     height: 200px;
   }
 
   .left-hand h3 {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Oxygen", monospace;
     margin-bottom: 5px;
   }
@@ -688,11 +700,19 @@
     font-size: 12px !important;
     text-align: left;
     position: relative;
-    left: 10px;
+    left: 70px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.329);
-    width: 90%;
-    line-height: 0px;
+    width: 768px;
+    line-height: 25px;
+  }
+
+  .mercedes i,
+  .benz-parts i,
+  .about-us i,
+  .further-info i {
+    position: relative;
+    left: 40px;
   }
 
   .mercedes,
@@ -706,14 +726,14 @@
   }
 
   .untitled {
-    left: 10px;
+    left: 70px;
     top: 0px;
   }
 
   .legalCopyrights {
     height: 250px;
-    width: 90%;
-    left: 15px;
+    width: 650px;
+    left: 40px;
     top: 450px;
     flex-direction: column-reverse;
   }
@@ -724,10 +744,10 @@
   }
 
   .finalCaptions {
-    /* background: blueviolet; */
     position: relative;
     top: -70px;
-    line-height: 5px;
+    line-height: 0px;
+    /* right: 0px; */
   }
 
   .legalSymbols {
@@ -752,7 +772,7 @@
   .landscapeCaption {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 250px;
   }
 
   .chat {

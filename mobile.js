@@ -9,6 +9,8 @@ const burgerMenu = document.querySelector(".topMenu");
 const exitCross = document.querySelector(".clickHere");
 let lastScrollTop = 0;
 
+// console.log(window.innerWidth);
+
 document.addEventListener("scroll", (e) => {
   var st = pageYOffset;
   if (st > lastScrollTop) {
@@ -22,39 +24,41 @@ document.addEventListener("scroll", (e) => {
   }
   lastScrollTop = st <= 0 ? 0 : st;
 
-  if (pageYOffset >= 250) {
+  if (pageYOffset >= 500) {
     shopFromHomeDiv.classList.add("mobileSlideUp");
   }
 
-  if (pageYOffset >= 800) {
+  if (pageYOffset >= 1400) {
     mobilePersonal.classList.add("mobileSlideUp2");
   }
 
-  if (pageYOffset >= 1200) {
+  if (pageYOffset >= 1800) {
     mobileInsurance.classList.add("mobileSlideUp3");
   }
 
-  if (pageYOffset >= 1500) {
+  if (pageYOffset >= 2200) {
     mobileService.classList.add("mobileSlideUp3");
   }
 
-  if (pageYOffset >= 2300) {
+  if (pageYOffset >= 2800) {
     genuinePic.classList.add("mobileSlideUp5");
   }
 
-  if (pageYOffset >= 2800) {
+  if (pageYOffset >= 3300) {
     costComparison.classList.add("mobileSlideUp6");
   }
   // console.log(pageYOffset);
 });
 
-chatBubble.addEventListener("click", (e) => {
-  document.body.style.overflowY = "hidden";
-});
+if (mobileWidthSize !== 10) {
+  chatBubble.addEventListener("click", (e) => {
+    document.body.style.overflowY = "hidden";
+  });
 
-arrowDown.addEventListener("click", (e) => {
-  document.body.style.overflowY = "scroll";
-});
+  arrowDown.addEventListener("click", (e) => {
+    document.body.style.overflowY = "scroll";
+  });
+}
 
 burgerMenu.addEventListener("click", (e) => {
   mobilePopUp.classList.add("slideLeft");
