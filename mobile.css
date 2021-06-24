@@ -833,7 +833,7 @@
   .ourCarMenu {
     position: absolute;
     height: 560px;
-    width: 320px;
+    width: 100%;
     z-index: 2500;
     background: black;
     left: 320px;
@@ -948,8 +948,8 @@
 
   .mobileNavMenu {
     position: absolute;
-    height: 530px;
-    width: 320px;
+    height: 110%;
+    width: 100%;
     background: rgba(0, 0, 0, 0.836);
     z-index: 5000;
     left: 0px;
@@ -1137,5 +1137,78 @@
       top: 150px;
       opacity: 100%;
     }
+  }
+}
+
+@media only screen and (max-width: 376px) and (min-width: 321px) {
+  .topMenu {
+    left: 70px;
+  }
+
+  .mobileNavMenu {
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+  }
+
+  .mobileNavMenu i {
+    left: 300px;
+  }
+
+  .product-description h3 {
+    margin-top: 30px;
+    width: 300px;
+    font-size: 23px;
+  }
+
+  .purchase-info {
+    position: relative !important;
+    bottom: -60px !important;
+  }
+
+  .purchase-info {
+    margin-top: 20px;
+  }
+
+  .purchase-info,
+  .buy-button,
+  .find-out-more,
+  .costButton {
+    width: 320px;
+    height: 35px;
+  }
+
+  .button {
+    left: 50px;
+  }
+
+  .buttonRight {
+    left: 30px;
+  }
+
+  .caption {
+    left: 65%;
+  }
+
+  .caption,
+  .captionRight {
+    font-size: 16px;
+    position: relative;
+  }
+
+  .mobile-pic {
+    width: 320px;
+  }
+  .find-out-more {
+    right: 50px;
+  }
+  .buy-button {
+    right: 40px;
+  }
+  .find-out-more p {
+    left: 110px;
+  }
+  .buy-button p {
+    left: 95px;
   }
 }
