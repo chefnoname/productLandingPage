@@ -1199,16 +1199,43 @@
   .mobile-pic {
     width: 320px;
   }
+
   .find-out-more {
     right: 50px;
   }
+
   .buy-button {
     right: 40px;
   }
+
   .find-out-more p {
     left: 110px;
   }
+
   .buy-button p {
     left: 95px;
+  }
+
+  .mobile-personal-finance {
+    width: 330px;
+  }
+
+  .mobile-agility img,
+  .mobile-hirePurchase img,
+  .mobile-operatingLease img,
+  .mobile-contactHire img,
+  .mobile-motorInsurance img,
+  .mobile-firstCover img,
+  .mobile-service img {
+    width: 330px;
+  }
+
+  .mobile-small-box {
+    left: 285px;
+    top: -25px;
+  }
+
+  .slick-dots {
+    padding: 0.5rem;
   }
 }
