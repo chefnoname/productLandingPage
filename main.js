@@ -227,10 +227,12 @@ servicingBtn.addEventListener("click", (e) => {
 let mobileWidthSize;
 // mobileWidthSize = window.innerWidth <= 426 ? 0 : 1;
 
-if (window.innerWidth <= 445) {
+if (window.innerWidth <= 340) {
   mobileWidthSize = 0;
-} else if (window.innerWidth === 768) {
+} else if (window.innerWidth <= 415) {
   mobileWidthSize = 1;
+} else if (window.innerWidth === 768) {
+  mobileWidthSize = 3;
 } else {
   mobileWidthSize = 10;
 }

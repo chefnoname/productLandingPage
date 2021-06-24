@@ -1238,4 +1238,92 @@
   .slick-dots {
     padding: 0.5rem;
   }
+
+  .serviceBox {
+    top: 2.5px;
+  }
+
+  .genuine-info-container img,
+  .genuine-info-container p {
+    width: 330px;
+  }
+
+  .genuineButton p {
+    left: 65px;
+  }
+
+  .cost-comparison {
+    left: 20px;
+  }
+
+  .costButton {
+    left: -10px;
+  }
+
+  .footnote {
+    left: 20px;
+  }
+
+  .tiles {
+    left: 20px;
+  }
+
+  .tile {
+    width: 310px;
+  }
+
+  .tile p {
+    bottom: 20px;
+  }
+
+  .mobileRight102 {
+    left: 110px !important;
+  }
+  .mobileRight2 {
+    left: 90px !important;
+  }
+  .mobileRight3 {
+    left: 80px !important;
+  }
+  .mobileRight4 {
+    left: 130px !important;
+  }
+
+  .upButton {
+    right: 10px;
+  }
+
+  .subscribeButton {
+    width: 310px;
+  }
+
+  .subscribeButton p {
+    top: -8px;
+    left: 115px;
+  }
+
+  .chat {
+    left: 290px;
+  }
+
+  .topHalf .fa-angle-down {
+    left: 300px;
+  }
+
+  .topHalf p {
+    width: 300px;
+  }
+
+  .bottomHalf {
+    right: -30px;
+  }
+
+  .bottomHalf p {
+    position: relative;
+    right: 40px;
+  }
+
+  .bottomHalf i {
+    left: 220px;
+  }
 }

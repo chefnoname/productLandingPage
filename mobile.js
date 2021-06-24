@@ -9,15 +9,26 @@ const burgerMenu = document.querySelector(".topMenu");
 const exitCross = document.querySelector(".clickHere");
 let lastScrollTop = 0;
 
-// console.log(window.innerWidth);
+console.log("current mws ", mobileWidthSize);
+
+console.log("this is the window.InnerWid", window.innerWidth);
 
 document.addEventListener("scroll", (e) => {
   var st = pageYOffset;
   if (st > lastScrollTop) {
     mobileNav.style.position = "sticky";
-    mobileNav.style.top = "33px";
+
+    if (mobileWidthSize === 0) {
+      mobileNav.style.top = "33px";
+      mobileMenu.style.top = "505px";
+    }
+
+    if (mobileWidthSize === 1) {
+      mobileNav.style.top = "57px";
+      mobileMenu.style.top = "527px";
+    }
+
     mobileMenu.style.position = "fixed";
-    mobileMenu.style.top = "505px";
   } else {
     mobileNav.style.top = "0px";
     mobileMenu.style.top = "470px";
