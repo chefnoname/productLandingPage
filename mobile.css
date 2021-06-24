@@ -185,7 +185,7 @@
     position: sticky;
     z-index: 2000;
     top: 470px;
-    width: 320px;
+    width: 95%;
     justify-content: space-between;
   }
 
@@ -863,16 +863,6 @@
     to {
       left: 0px;
       opacity: 100%;
-    }
-  }
-
-  @keyframes slideRight {
-    from {
-      left: 0px;
-    }
-
-    to {
-      left: 320px;
     }
   }
 
