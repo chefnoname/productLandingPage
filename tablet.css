@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) and (min-width: 427px) {
+@media only screen and (max-width: 1024px) and (min-width: 427px) {
   /* DISPLAY NONES */
 
   .second-nav {
@@ -555,7 +555,7 @@
   }
 
   .tiles {
-    left: 0px;
+    left: 20px;
     top: 100px;
   }
 
@@ -762,6 +762,586 @@
     display: flex;
     justify-content: space-between;
     width: 250px;
+  }
+
+  .chat {
+    color: white;
+    font-size: 70px;
+    position: fixed;
+    z-index: 10;
+    left: 600px;
+    top: 400px;
+  }
+
+  .doughnut {
+    height: 15px;
+    width: 15px;
+    top: 171px;
+    left: -6.3px;
+  }
+
+  .donut2 {
+    top: 211px;
+  }
+
+  .donut3 {
+    top: 251px;
+  }
+
+  .donut4 {
+    top: 291px;
+  }
+  .donut5 {
+    top: 331px;
+  }
+
+  .ourCarMenu,
+  .mobileMenu {
+    position: relative;
+    height: 350px;
+    width: 520px;
+    z-index: 2500;
+    background: white;
+    left: -420px !important;
+    top: 100px;
+    display: none;
+    border-radius: 5px;
+  }
+
+  .tabletSlide {
+    -webkit-animation: tabletSlide 0.5s ease-in-out;
+    -moz-animation: tabletSlide 0.5s ease-in-out;
+    -o-animation: tabletSlide 0.5s ease-in-out;
+    animation: tabletSlide 0.5s ease-in-out;
+  }
+
+  @keyframes tabletSlide {
+    from {
+      left: -820px;
+      opacity: 0%;
+    }
+
+    to {
+      left: -420px;
+      opacity: 100%;
+    }
+  }
+
+  .backTabSlide {
+    -webkit-animation: backTabSlide 0.5s ease-in-out;
+    -moz-animation: backTabSlide 0.5s ease-in-out;
+    -o-animation: backTabSlide 0.5s ease-in-out;
+    animation: backTabSlide 0.5s ease-in-out;
+  }
+
+  @keyframes backTabSlide {
+    from {
+      left: -420px;
+      opacity: 100%;
+    }
+
+    to {
+      left: -820px;
+      opacity: 0%;
+    }
+  }
+
+  .ourPart,
+  .topPart {
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+  }
+
+  .ourPart h1 {
+    font-family: "Oxygen", serif;
+    left: 0px;
+    top: -10px;
+    font-size: 16px;
+    color: rgba(77, 73, 73, 0.795);
+    font-weight: 100;
+  }
+
+  .topPart img {
+    display: none;
+  }
+
+  .topPart .fa-search {
+    visibility: hidden;
+  }
+
+  .ourPart i,
+  .topPart i {
+    color: black;
+    position: relative;
+    bottom: 10px;
+    right: 5px;
+    font-size: 30px;
+  }
+
+  .ourCarsList p,
+  .mobileMenu p {
+    display: block;
+    color: black;
+    font-family: "Oxygen", monospace;
+  }
+  .ourCarsList,
+  .mobileList {
+    background-color: white;
+    height: 450px;
+    padding: 20px;
+    line-height: 30px;
+  }
+
+  .ourCarsList {
+    line-height: 70px;
+  }
+
+  .mobileList i {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -31px;
+    left: 220px;
+  }
+
+  .searchPage {
+    width: 768px;
+    height: 529px;
+  }
+
+  .searchPage img {
+    left: 250px;
+  }
+
+  .exit {
+    left: 650px;
+  }
+
+  .exit i {
+    font-size: 30px;
+  }
+
+  .searchPage .fa-search {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    left: 50px;
+    top: 42px;
+  }
+
+  .searchBar {
+    width: 500px;
+    height: 40px;
+    left: 60px;
+    top: 40px;
+  }
+
+  .chat {
+    display: none;
+  }
+}
+.shopFromTabletSlide {
+  -webkit-animation: shopFromTabletSlide 1s ease-in-out;
+  -moz-animation: shopFromTabletSlide 1s ease-in-out;
+  -o-animation: shopFromTabletSlide 1s ease-in-out;
+  animation: shopFromTabletSlide 1s ease-in-out;
+}
+
+@keyframes shopFromTabletSlide {
+  from {
+    top: -200px;
+    opacity: 0%;
+  }
+
+  to {
+    top: -300px;
+    opacity: 100%;
+  }
+}
+
+.agilityTabletSlide {
+  -webkit-animation: agilityTabletSlide 1s ease-in-out;
+  -moz-animation: agilityTabletSlide 1s ease-in-out;
+  -o-animation: agilityTabletSlide 1s ease-in-out;
+  animation: agilityTabletSlide 1s ease-in-out;
+}
+
+@keyframes agilityTabletSlide {
+  from {
+    top: 100px;
+    opacity: 0%;
+  }
+
+  to {
+    top: 0px;
+    opacity: 100%;
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 769px) {
+  nav img {
+    left: 120px;
+  }
+
+  nav i {
+    font-size: 25px;
+  }
+
+  .topMenu {
+    right: 330px;
+  }
+
+  .topSearch {
+    right: -250px;
+    bottom: 10px;
+  }
+
+  .third-nav {
+    height: 30px;
+    width: 950px;
+    top: 20px;
+  }
+
+  .third-nav p {
+    font-size: 13px;
+  }
+
+  .third-nav .fa-angle-down {
+    font-size: 18px;
+    left: -40px;
+  }
+
+  #item10,
+  #item11,
+  #item12 {
+    right: 0px;
+  }
+
+  #item13,
+  #item14 {
+    display: block;
+  }
+
+  #item15 {
+    display: none;
+  }
+
+  #item16 {
+    display: block;
+  }
+
+  .hidden-menu {
+    height: 35px;
+    position: fixed !important;
+  }
+
+  .list1 i,
+  .list2 i,
+  .list3 i,
+  .list4 i,
+  .list5 i {
+    font-size: 18px;
+  }
+
+  .list1 p,
+  .list2 p,
+  .list3 p,
+  .list4 p,
+  .list5 p {
+    font-size: 16px;
+  }
+
+  .product-description {
+    width: 515px;
+    line-height: 40px;
+  }
+
+  .product-description h3 {
+    font-size: 40px;
+  }
+
+  .purchase-info {
+    width: 150px;
+    height: 100px;
+  }
+
+  .purchase-info p {
+    font-size: 15px;
+    top: 5px;
+    line-height: 25px;
+    width: 100px;
+  }
+
+  .purchase-info i {
+    top: 0px;
+    left: 110px;
+    font-size: 20px;
+  }
+
+  .hidden-nav {
+    display: none;
+  }
+
+  .display-bulletPoint ul {
+    font-size: 30px;
+  }
+
+  .pricing-info-container {
+    position: relative;
+    top: -150px;
+    left: 30px;
+  }
+
+  .find-out h1 {
+    position: relative;
+    top: 30px;
+    right: 20px;
+    font-size: 30px;
+  }
+
+  .pricing-images {
+    left: 150px;
+  }
+
+  .caption,
+  .captionRight {
+    left: 25%;
+  }
+
+  .button {
+    left: 23%;
+  }
+
+  .buttonRight {
+    left: 21%;
+  }
+
+  .shop-from-home {
+    padding: 20px;
+    margin-top: 30px;
+    position: relative;
+    top: -150px;
+    left: 20px;
+  }
+
+  .right-content img {
+    height: 240px;
+    width: 430px;
+    right: 60px;
+  }
+
+  .corner-search {
+    height: 35px;
+    width: 35px;
+    right: 80px;
+    bottom: 29px;
+  }
+
+  .corner-search i {
+    font-size: 25px;
+    position: relative;
+    bottom: 1px;
+    right: 1px;
+  }
+
+  .products-services {
+    bottom: 150px;
+  }
+
+  .personalFinancePics img,
+  .personalContactHire img,
+  .personal-operating img {
+    width: 300px;
+  }
+
+  .agilityAnim,
+  .hirePurchaseAnim {
+    position: relative;
+    top: 0px;
+  }
+
+  .agility,
+  .motor-insurance {
+    position: relative;
+    right: 30px;
+  }
+
+  .hire-purchase {
+    position: relative;
+    right: 15px;
+  }
+
+  .personal-operating {
+    position: relative;
+    right: 0px;
+    top: -200px;
+  }
+
+  .personalContactHire {
+    position: relative;
+    right: 30px;
+    bottom: 19px;
+    left: 0px;
+  }
+
+  .plus1,
+  .plus4 {
+    left: 315px;
+  }
+
+  .plus2 {
+    left: 295px;
+  }
+
+  .plus3 {
+    left: 275px;
+  }
+
+  .genuine-info-container {
+    width: 950px !important;
+  }
+
+  .genuine-info-container p {
+    width: 320px;
+  }
+
+  .genuine-info-container img {
+    height: 300px;
+    width: 600px;
+    left: 35px;
+  }
+
+  .genuine-corner-search {
+    height: 35px;
+    width: 35px;
+    font-size: 25px;
+    top: 265px;
+    right: -257px;
+  }
+
+  .genuineButton {
+    bottom: 55px;
+    width: 230px;
+  }
+
+  .genuineButton p {
+    left: 10px;
+    top: 3px;
+    font-size: 14px !important;
+  }
+
+  .cost-comparison {
+    top: 0px;
+    left: 95px;
+  }
+
+  .cost-title h3 {
+    font-size: 30px;
+  }
+
+  .cost-compare h2 {
+    font-size: 18px;
+  }
+
+  .costButton {
+    width: 140px;
+  }
+
+  .footnote {
+    left: 80px;
+    width: 900px;
+  }
+
+  .footnoteAnim {
+    top: 0px;
+  }
+
+  .tileUnder {
+    left: 80px;
+  }
+
+  .tiles {
+    left: 60px;
+  }
+
+  .tile {
+    display: flex;
+    width: 255px;
+    height: 130px;
+    padding: 15px;
+  }
+
+  .tile i {
+    font-size: 45px;
+  }
+
+  .tile p {
+    top: -7px;
+    right: 2px;
+    font-size: 18px;
+  }
+
+  .tile .fa-chevron-right {
+    display: block;
+    left: 146px;
+    bottom: 33px;
+  }
+
+  .mobileRight4 {
+    bottom: 10px !important;
+  }
+
+  .upButton {
+    position: relative;
+    left: 80px;
+    bottom: 70px;
+  }
+
+  .upButton i {
+    font-size: 25px;
+  }
+
+  .upButton p {
+    font-size: 20px;
+  }
+
+  .sign-up {
+    left: 90px;
+    width: 800px;
+  }
+
+  .left-hand h3 {
+    font-size: 18px;
+  }
+
+  .left-hand p {
+    font-size: 14px;
+  }
+
+  .last-part {
+    left: 20px;
+    width: 800px;
+  }
+
+  .mercedes h1,
+  .benz-parts h1,
+  .about-us h1,
+  .further-info h1 {
+    font-size: 18px !important;
+  }
+
+  .mercedes i,
+  .benz-parts i,
+  .about-us i,
+  .further-info i {
+    font-size: 20px;
+  }
+
+  .untitled {
+    font-size: 20px;
   }
 
   .chat {

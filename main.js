@@ -233,7 +233,7 @@ if (window.innerWidth <= 340) {
   mobileWidthSize = 1;
 } else if (window.innerWidth <= 495) {
   mobileWidthSize = 2;
-} else if (window.innerWidth === 768) {
+} else if (window.innerWidth <= 1050) {
   mobileWidthSize = 3;
 } else {
   mobileWidthSize = 10;
