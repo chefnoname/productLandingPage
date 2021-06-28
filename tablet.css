@@ -943,21 +943,21 @@
     display: none;
   }
 }
-.shopFromTabletSlide {
-  -webkit-animation: shopFromTabletSlide 1s ease-in-out;
-  -moz-animation: shopFromTabletSlide 1s ease-in-out;
-  -o-animation: shopFromTabletSlide 1s ease-in-out;
-  animation: shopFromTabletSlide 1s ease-in-out;
+.shopFromLaptopSlide {
+  -webkit-animation: shopFromLaptopSlide 1s ease-in-out;
+  -moz-animation: shopFromLaptopSlide 1s ease-in-out;
+  -o-animation: shopFromLaptopSlide 1s ease-in-out;
+  animation: shopFromLaptopSlide 1s ease-in-out;
 }
 
-@keyframes shopFromTabletSlide {
+@keyframes shopFromLaptopSlide {
   from {
-    top: -200px;
+    top: -50px;
     opacity: 0%;
   }
 
   to {
-    top: -300px;
+    top: -150px;
     opacity: 100%;
   }
 }
@@ -1356,167 +1356,56 @@
   .doughnut {
     height: 15px;
     width: 15px;
-    top: 171px;
-    left: -6.3px;
+    top: 172px;
+    left: -10.3px;
   }
 
   .donut2 {
-    top: 211px;
+    top: 212px;
   }
 
   .donut3 {
-    top: 251px;
+    top: 252px;
   }
 
   .donut4 {
-    top: 291px;
+    top: 292px;
   }
   .donut5 {
-    top: 331px;
+    top: 332px;
   }
 
   .ourCarMenu,
   .mobileMenu {
-    position: relative;
-    height: 350px;
-    width: 520px;
-    z-index: 2500;
-    background: white;
-    left: -420px !important;
-    top: 100px;
-    display: none;
-    border-radius: 5px;
-  }
-
-  .tabletSlide {
-    -webkit-animation: tabletSlide 0.5s ease-in-out;
-    -moz-animation: tabletSlide 0.5s ease-in-out;
-    -o-animation: tabletSlide 0.5s ease-in-out;
-    animation: tabletSlide 0.5s ease-in-out;
-  }
-
-  @keyframes tabletSlide {
-    from {
-      left: -820px;
-      opacity: 0%;
-    }
-
-    to {
-      left: -420px;
-      opacity: 100%;
-    }
-  }
-
-  .backTabSlide {
-    -webkit-animation: backTabSlide 0.5s ease-in-out;
-    -moz-animation: backTabSlide 0.5s ease-in-out;
-    -o-animation: backTabSlide 0.5s ease-in-out;
-    animation: backTabSlide 0.5s ease-in-out;
-  }
-
-  @keyframes backTabSlide {
-    from {
-      left: -420px;
-      opacity: 100%;
-    }
-
-    to {
-      left: -820px;
-      opacity: 0%;
-    }
-  }
-
-  .ourPart,
-  .topPart {
-    height: 30px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-end;
-  }
-
-  .ourPart h1 {
-    font-family: "Oxygen", serif;
-    left: 0px;
-    top: -10px;
-    font-size: 16px;
-    color: rgba(77, 73, 73, 0.795);
-    font-weight: 100;
-  }
-
-  .topPart img {
-    display: none;
-  }
-
-  .topPart .fa-search {
-    visibility: hidden;
-  }
-
-  .ourPart i,
-  .topPart i {
-    color: black;
-    position: relative;
-    bottom: 10px;
-    right: 5px;
-    font-size: 30px;
-  }
-
-  .ourCarsList p,
-  .mobileMenu p {
-    display: block;
-    color: black;
-    font-family: "Oxygen", monospace;
-  }
-  .ourCarsList,
-  .mobileList {
-    background-color: white;
-    height: 450px;
-    padding: 20px;
-    line-height: 30px;
-  }
-
-  .ourCarsList {
-    line-height: 70px;
+    height: 500px;
+    width: 1000px;
+    left: -330px !important;
   }
 
   .mobileList i {
-    color: black;
-    font-size: 20px;
-    position: relative;
-    top: -31px;
-    left: 220px;
+    left: 300px;
   }
 
   .searchPage {
-    width: 768px;
-    height: 529px;
+    width: 1024px;
+    height: 709px;
   }
 
   .searchPage img {
-    left: 250px;
+    left: 400px;
   }
 
   .exit {
-    left: 650px;
-  }
-
-  .exit i {
-    font-size: 30px;
+    left: 850px;
   }
 
   .searchPage .fa-search {
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    left: 50px;
-    top: 42px;
+    left: 118px;
   }
 
   .searchBar {
-    width: 500px;
-    height: 40px;
-    left: 60px;
-    top: 40px;
+    width: 650px;
+    left: 123px;
   }
 
   .chat {
@@ -1559,6 +1448,30 @@
     top: 0px;
     opacity: 100%;
   }
+}
+
+.personalOperatingSlide {
+  -webkit-animation: personalOperatingSlide 1s ease-in-out;
+  -moz-animation: personalOperatingSlide 1s ease-in-out;
+  -o-animation: personalOperatingSlide 1s ease-in-out;
+  animation: personalOperatingSlide 1s ease-in-out;
+}
+
+@keyframes personalOperatingSlide {
+  from {
+    top: -100px;
+    opacity: 0%;
+  }
+
+  to {
+    top: -200px;
+    opacity: 100%;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
 }
 
 /* COLOURS: */
