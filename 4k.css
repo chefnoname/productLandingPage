@@ -11,7 +11,7 @@
 
   .third-nav {
     left: 650px;
-    bottom: 1500px;
+    bottom: 1880px;
   }
 
   .third-nav i {
@@ -24,12 +24,12 @@
   }
 
   .purchase-info {
-    bottom: 900px;
+    bottom: 1000px;
     left: 450px;
   }
 
   .hidden-menu {
-    right: 30px;
+    right: -40px;
   }
 
   .caption {
@@ -53,7 +53,7 @@
   }
 
   .para-content {
-    width: 50%;
+    width: 40%;
     left: 450px;
   }
 
@@ -68,6 +68,190 @@
   }
 
   .right-content img {
-    right: 485px;
+    height: 400px;
+    width: 700px;
+    right: 605px;
+  }
+
+  .corner-search {
+    display: none;
+  }
+
+  .products-services {
+    padding: 20px;
+    margin-top: 350px;
+    margin-left: 430px;
+  }
+  .agilityAnim,
+  .hirePurchaseAnim,
+  .personalOperatingAnim {
+    top: 0px;
+  }
+  .personalFinancePics {
+    justify-content: start;
+  }
+
+  .personalFinancePics img,
+  .personalContactHire img {
+    height: 300px;
+    width: 500px;
+  }
+
+  .plus1,
+  .plus4 {
+    left: 500px;
+  }
+
+  .plus2 {
+    left: 480px;
+  }
+
+  .plus3 {
+    left: 460px;
+  }
+
+  .genuine-accessories {
+    top: 0px;
+  }
+
+  .genuine-info-container {
+    display: flex;
+    justify-content: start;
+  }
+
+  .genuine-info-container img {
+    right: -15px;
+    height: 400px;
+    width: 800px;
+  }
+
+  .genuineButton {
+    left: 40px;
+    bottom: 150px;
+  }
+
+  .cost-comparison {
+    top: 120px;
+    right: 350px;
+  }
+
+  .costButton {
+    left: 40px;
+  }
+
+  .footnote {
+    left: 0px;
+    width: 75%;
+  }
+
+  .tileUnder {
+    left: 0px;
+    top: 200px;
+  }
+
+  .tiles {
+    top: 230px;
+    justify-content: start;
+  }
+
+  .tile {
+    width: 350px;
+  }
+
+  .tile p {
+    margin: -5px;
+  }
+
+  .tile .fa-chevron-right {
+    left: 300px;
+    bottom: 10px;
+  }
+
+  .e-brochure {
+    right: -35px;
+  }
+
+  .plug-ins {
+    right: -70px;
+  }
+
+  .fleet {
+    right: -105px;
+  }
+
+  .upButton {
+    position: relative;
+    top: 40px;
+    right: 300px;
+  }
+
+  .sign-up {
+    width: 85%;
+    left: -100px;
+    top: 390px;
+    height: 130px;
+  }
+
+  .subscribeButton {
+    width: 350px;
+    left: -110px;
+  }
+
+  .subscribeButton p {
+    left: 135px;
+  }
+
+  .last-part {
+    left: -160px;
+  }
+
+  .legalCopyrights {
+    left: -120px;
+  }
+
+  .legalCopyrights p {
+    margin-right: 80px;
+  }
+
+  .finalCaptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    right: 190px;
+  }
+
+  .landscapeCaption {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .genuine-corner-search {
+    display: none;
+  }
+
+  .searchPage {
+    height: 2000px;
+  }
+
+  .searchPage img {
+    left: 1120px;
+  }
+
+  .searchPage .fa-search {
+    left: 756px;
+  }
+
+  .searchBar {
+    left: 760px;
+  }
+
+  .exit {
+    left: 1880px;
+  }
+
+  .chat {
+    display: none;
   }
 }
