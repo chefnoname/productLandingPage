@@ -63,7 +63,6 @@ document.addEventListener("scroll", (e) => {
   if (pageYOffset >= 3300) {
     costComparison.classList.add("mobileSlideUp6");
   }
-  // console.log(pageYOffset);
 });
 
 if (mobileWidthSize !== 10) {
