@@ -1327,3 +1327,204 @@
     left: 220px;
   }
 }
+
+@media only screen and (max-width: 426px) and (min-width: 376px) {
+  .topMenu {
+    left: 100px;
+  }
+
+  .mobileNavMenu {
+    padding: 35px;
+  }
+
+  .mobileNavMenu i {
+    left: 350px;
+  }
+
+  .product-description h3 {
+    margin-top: 50px;
+    width: 300px;
+    font-size: 25px;
+  }
+
+  .purchase-info {
+    position: relative !important;
+    bottom: -100px !important;
+    left: 30px;
+  }
+
+  .purchase-info {
+    margin-top: 40px;
+  }
+
+  .purchase-info,
+  .buy-button,
+  .find-out-more,
+  .costButton {
+    width: 370px;
+    height: 35px;
+  }
+
+  .button {
+    left: 80px;
+  }
+
+  .buttonRight {
+    left: 60px;
+  }
+
+  .caption {
+    left: 65%;
+  }
+
+  .caption,
+  .captionRight {
+    font-size: 16px;
+    position: relative;
+  }
+
+  .mobile-pic {
+    height: 200px;
+    width: 370px;
+  }
+
+  .find-out-more {
+    right: 50px;
+  }
+
+  .buy-button {
+    right: 40px;
+  }
+
+  .find-out-more p {
+    left: 130px;
+  }
+
+  .buy-button p {
+    left: 115px;
+  }
+
+  .mobile-personal-finance {
+    width: 370px;
+  }
+
+  .mobile-agility img,
+  .mobile-hirePurchase img,
+  .mobile-operatingLease img,
+  .mobile-contactHire img,
+  .mobile-motorInsurance img,
+  .mobile-firstCover img,
+  .mobile-service img {
+    width: 370px;
+  }
+
+  .mobile-small-box {
+    left: 326px;
+    top: -25px;
+  }
+
+  .slick-dots {
+    padding: 0.5rem;
+  }
+
+  .serviceBox {
+    top: 2.5px;
+  }
+
+  .genuine-info-container img,
+  .genuine-info-container p {
+    width: 370px;
+  }
+
+  .genuineButton p {
+    left: 95px;
+  }
+
+  .cost-comparison {
+    left: 20px;
+  }
+
+  .costButton {
+    left: -10px;
+  }
+
+  .footnote {
+    left: 20px;
+  }
+
+  .tiles {
+    left: 20px;
+  }
+
+  .tile {
+    width: 340px;
+  }
+
+  .tile p {
+    bottom: 20px;
+  }
+
+  .mobileRight102 {
+    left: 140px !important;
+  }
+  .mobileRight2 {
+    left: 120px !important;
+  }
+  .mobileRight3 {
+    left: 110px !important;
+  }
+  .mobileRight4 {
+    left: 160px !important;
+  }
+
+  .upButton {
+    right: 10px;
+  }
+
+  .subscribeButton {
+    width: 360px;
+  }
+
+  .subscribeButton p {
+    top: -8px;
+    left: 135px;
+  }
+
+  .chat {
+    left: 290px;
+  }
+
+  .topHalf .fa-angle-down {
+    left: 360px;
+  }
+
+  .topHalf p {
+    width: 350px;
+  }
+
+  .bottomHalf {
+    right: -30px;
+  }
+
+  .bottomHalf p {
+    position: relative;
+    right: 80px;
+    top: 1.5px;
+  }
+
+  .bottomHalf i {
+    left: 220px;
+  }
+
+  .mercedes h1,
+  .benz-parts h1,
+  .about-us h1,
+  .further-info h1 {
+    font-size: 16px !important;
+    width: 330px;
+  }
+
+  .mobile-stick-menu {
+    width: 87%;
+  }
+}

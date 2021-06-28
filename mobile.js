@@ -28,6 +28,11 @@ document.addEventListener("scroll", (e) => {
       mobileMenu.style.top = "527px";
     }
 
+    if (mobileWidthSize === 2) {
+      mobileNav.style.top = "86px";
+      mobileMenu.style.top = "560px";
+    }
+
     mobileMenu.style.position = "fixed";
   } else {
     mobileNav.style.top = "0px";
@@ -43,7 +48,7 @@ document.addEventListener("scroll", (e) => {
     mobilePersonal.classList.add("mobileSlideUp2");
   }
 
-  if (pageYOffset >= 1800) {
+  if (pageYOffset >= 1600) {
     mobileInsurance.classList.add("mobileSlideUp3");
   }
 
@@ -51,7 +56,7 @@ document.addEventListener("scroll", (e) => {
     mobileService.classList.add("mobileSlideUp3");
   }
 
-  if (pageYOffset >= 2800) {
+  if (pageYOffset >= 2600) {
     genuinePic.classList.add("mobileSlideUp5");
   }
 
