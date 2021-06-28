@@ -1,0 +1,73 @@
+@media only screen and (max-width: 2561px) and (min-width: 1441px) {
+  nav {
+    padding-left: 520px;
+    padding-right: 520px;
+  }
+
+  .car-container {
+    background-size: 75%;
+    margin-left: 350px;
+  }
+
+  .third-nav {
+    left: 650px;
+    bottom: 1500px;
+  }
+
+  .third-nav i {
+    display: none;
+  }
+
+  .product-description {
+    bottom: 1200px;
+    left: 450px;
+  }
+
+  .purchase-info {
+    bottom: 900px;
+    left: 450px;
+  }
+
+  .hidden-menu {
+    right: 30px;
+  }
+
+  .caption {
+    left: 44%;
+  }
+
+  .captionRight {
+    left: 35%;
+  }
+
+  .button {
+    left: 45%;
+  }
+
+  .buttonRight {
+    left: 34.5%;
+  }
+
+  .left-content h3 {
+    left: 450px;
+  }
+
+  .para-content {
+    width: 50%;
+    left: 450px;
+  }
+
+  .find-out-more {
+    position: relative;
+    left: 420px;
+  }
+
+  .buy-button {
+    position: relative;
+    left: 410px;
+  }
+
+  .right-content img {
+    right: 485px;
+  }
+}
