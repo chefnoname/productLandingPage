@@ -23,103 +23,114 @@
 <div class="wrapper">
 
     <body>
+        <header id="header">
 
-        <div class="searchPage">
-            <img id="top" src="/assets/mercedes-benz.png" alt="">
-
-            <div class="exit">
-                <i class="fas fa-times"></i>
+            <div class="headerChild" style="position: fixed;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XO93x4PAI1U"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen id="video"></iframe>
             </div>
 
-            <input type="text" class="searchBar" placeholder="Your search term / OnlineCode">
-            <i class="fas fa-search"></i>
+            <div class="searchPage">
 
-
-        </div>
-
-        <nav class="nav-bar">
-            <div class="left-side">
-                <i class="fas fa-car topCar"></i>
-                <img src="/assets/mercedes-benz.png" alt="" class="leftSideMerc">
-                <i class="fas fa-bars topMenu"></i>
-                <p class="title">Mercedes-Benz</p>
-            </div>
-            <div class="right-side">
-                <i class="fas fa-search topSearch"></i>
-            </div>
-
-
-            <div class="mobileMenu opaque">
-
-                <div class="topPart">
-                    <i class="fas fa-search topSearch mobileMenuSearch"></i>
-                    <img src="/assets/mercedes-benz.png" class="mobileMenuPic" alt="">
-                    <i class="fas fa-times clickHere"></i>
+                <img id="header-img" src="/assets/mercedes-benz.png" alt="">
+                <div class="exit">
+                    <i class="fas fa-times"></i>
                 </div>
 
-                <div class="mobileList">
-                    <div class="mercedesMe">
-                        <p>Mercedes me Login</p>
-                        <i class="fas fa-chevron-right"></i>
-                    </div>
-                    <div class="ourCars">
-                        <p>Our Cars</p>
-                        <i class="fas fa-chevron-right"></i>
-                    </div>
-                    <div class="electricHybrid">
-                        <p>Electric & Hybrid</p>
-                        <i class="fas fa-chevron-right"></i>
-                    </div>
-                    <div class="onlineShow">
-                        <p>Online Showroom</p>
-                        <i class="fas fa-chevron-right"></i>
-                    </div>
-                    <div class="latestOffers">
-                        <p>Latest Offers</p>
-                        <i class="fas fa-chevron-right"></i>
-                    </div>
-                    <div class="ownersArea">
-                        <p>Owners' Area</p>
-                        <i class="fas fa-chevron-right"></i>
-                    </div>
-                    <div class="financeInsurance">
-                        <p>Finance & Insurance</p>
-                        <i class="fas fa-chevron-right"></i>
-                    </div>
-                </div>
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <input type="email" class="searchBar" placeholder="Your search term / OnlineCode" id="email"
+                        name="email">
+                    <i class="fas fa-search"></i>
+                    <input type="submit" id="submit" placeholder="Enter Your Email">
+                </form>
             </div>
 
-            <div class="ourCarMenu opaque">
-
-                <div class="ourPart">
-                    <h1>Our Cars</h1>
-                    <i class="fas fa-times clickHere2"></i>
+            <nav class="nav-bar" id="nav-bar">
+                <div class="left-side">
+                    <i class="fas fa-car topCar nav-link" href='#item10'></i>
+                    <img src="/assets/mercedes-benz.png" alt="" class="leftSideMerc">
+                    <i class="fas fa-bars topMenu"></i>
+                    <p class="title">Mercedes-Benz</p>
+                </div>
+                <div class="right-side">
+                    <i class="fas fa-search topSearch nav-link" href='#item12'></i>
                 </div>
 
-                <div class="ourCarsList">
-                    <p>All cars</p>
-                    <p>Approved Used</p>
-                    <p>Fleet & Business Solutions</p>
-                    <p>Latest launches</p>
+
+                <div class="mobileMenu opaque nav-link" href='#item11'>
+
+                    <div class="topPart">
+                        <i class="fas fa-search topSearch mobileMenuSearch"></i>
+                        <img src="/assets/mercedes-benz.png" class="mobileMenuPic" alt="">
+                        <i class="fas fa-times clickHere"></i>
+                    </div>
+
+                    <div class="mobileList">
+                        <div class="mercedesMe">
+                            <p>Mercedes me Login</p>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="ourCars">
+                            <p>Our Cars</p>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="electricHybrid">
+                            <p>Electric & Hybrid</p>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="onlineShow">
+                            <p>Online Showroom</p>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="latestOffers">
+                            <p>Latest Offers</p>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="ownersArea">
+                            <p>Owners' Area</p>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="financeInsurance">
+                            <p>Finance & Insurance</p>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ourCarMenu opaque">
+
+                    <div class="ourPart">
+                        <h1>Our Cars</h1>
+                        <i class="fas fa-times clickHere2"></i>
+                    </div>
+
+                    <div class="ourCarsList">
+                        <p>All cars</p>
+                        <p>Approved Used</p>
+                        <p>Fleet & Business Solutions</p>
+                        <p>Latest launches</p>
+                        <p>Mercedes-AMG</p>
+                        <p>Motability</p>
+                    </div>
+
+                </div>
+
+                <div class="mobileNavMenu">
+                    <p>Highlights</p>
+                    <p>Plug-in Hybrid</p>
+                    <p>Design</p>
+                    <p>Technology</p>
+                    <p>Models and equipment</p>
+                    <p style="color: rgba(14, 165, 235, 0.856);">Buying an E-Class</p>
                     <p>Mercedes-AMG</p>
-                    <p>Motability</p>
+                    <i class="fas fa-times exitt"></i>
                 </div>
 
-            </div>
+            </nav>
 
-            <div class="mobileNavMenu">
-                <p>Highlights</p>
-                <p>Plug-in Hybrid</p>
-                <p>Design</p>
-                <p>Technology</p>
-                <p>Models and equipment</p>
-                <p style="color: rgba(14, 165, 235, 0.856);">Buying an E-Class</p>
-                <p>Mercedes-AMG</p>
-                <i class="fas fa-times exitt"></i>
-            </div>
-
-        </nav>
-
+        </header>
 
         <nav class="second-nav">
 
@@ -773,6 +784,7 @@
         <script src="main.js"></script>
         <script src="mobile.js"></script>
         <script src="tablet.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </div>
 

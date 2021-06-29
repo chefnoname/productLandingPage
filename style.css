@@ -1520,6 +1520,14 @@ li:hover,
   display: none;
 }
 
+.headerChild {
+  display: none;
+}
+
+#submit {
+  display: none;
+}
+
 .mobile-nav {
   display: none;
 }
@@ -1530,4 +1538,22 @@ li:hover,
 .further-info i,
 .untitled i {
   display: none;
+}
+
+.legalCopyrights p {
+  margin-right: 30px;
+}
+
+.finalCaptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  right: 0px;
+}
+
+.landscapeCaption {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
